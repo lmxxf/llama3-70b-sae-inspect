@@ -162,6 +162,18 @@ Decoder: [65536 → 8192]  (重建原始激活)
 
 ---
 
+## 发布计划
+
+| 日期 | 主题 | 论文版本 | 公众号角度 |
+|------|------|---------|-----------|
+| Day 1 | SAE 基础 | v1 | "Novice 激活更多神经元"——用 SAE 看提示词差异 |
+| Day 2 | Feature 标签 | v2 | "教学模式 vs 专业模式"的神经签名 |
+| Day 3 | UMAP 可视化 | v3 | 语义空间里的提示词地图 |
+| Day 4 | 跨模型验证 | v4 | Qwen vs Llama：提示词效应是通用的吗？ |
+| Day 5 | 综合结论 | final | 一句话总结：为什么"给新手解释"更聪明 |
+
+---
+
 ## 参考
 
 - [Goodfire/Llama-3.3-70B-Instruct-SAE-l50](https://huggingface.co/Goodfire/Llama-3.3-70B-Instruct-SAE-l50)
