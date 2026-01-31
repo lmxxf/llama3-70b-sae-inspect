@@ -9,8 +9,8 @@
 **Publication date:** 2026-01-31
 
 **Authors/Creators:**
-1. Jin, Yanyan (lmxxf@hotmail.com)
-2. Zhao, Lei
+1. Jin, Yanyan (lmxxf@hotmail.com, ORCID: 0009-0008-0169-0409)
+2. Zhao, Lei (ORCID: 0009-0008-9765-6837)
 
 **Description:**
 ```
