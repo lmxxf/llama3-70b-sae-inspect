@@ -1,7 +1,6 @@
 # Sparse Feature Analysis of Deep Layer Expansion: A Mechanistic Interpretation via SAE
 
-**Authors:** Yanyan Jin¹, Lei Zhao²
-¹Independent Researcher, ²Tencent CSIG
+**Authors:** Yanyan Jin, Lei Zhao
 
 **Discussion Paper v1** — Extends [Zhao (2026)](https://zenodo.org/records/18410085) with Sparse Autoencoder analysis
 
