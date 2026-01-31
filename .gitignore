@@ -1,0 +1,13 @@
+# Data files (too large for git)
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Output
+*.json
