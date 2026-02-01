@@ -1,0 +1,747 @@
+{
+  "34942": {
+    "total_activated": 56,
+    "total_not_activated": 244,
+    "activation_rate": 0.18666666666666668,
+    "condition_distribution": {
+      "novice": 50,
+      "standard": 4,
+      "spaces": 2
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.504872441291809
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Transformer 架构中位置编码的频域特性。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.774503231048584
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 操作系统中的写时复制 (Copy-on-Write) 机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.6005297899246216
+      },
+      {
+        "topic": "数据库事务隔离级别与幻读问题",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 数据库事务隔离级别与幻读问题。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.9250198602676392
+      },
+      {
+        "topic": "eBPF 在云原生网络观测中的应用",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 eBPF 在云原生网络观测中的应用。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.4959088563919067
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "59519": {
+    "total_activated": 76,
+    "total_not_activated": 224,
+    "activation_rate": 0.25333333333333335,
+    "condition_distribution": {
+      "novice": 50,
+      "padding": 10,
+      "spaces": 11,
+      "standard": 5
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.449873924255371
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Transformer 架构中位置编码的频域特性。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.5695017576217651
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "padding",
+        "prompt": "请解释一下 操作系统中的写时复制 (Copy-on-Write) 机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.011944025754928589
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 操作系统中的写时复制 (Copy-on-Write) 机制              **",
+        "activation": 0.03860211372375488
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 操作系统中的写时复制 (Copy-on-Write) 机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 1.8403903245925903
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "17913": {
+    "total_activated": 56,
+    "total_not_activated": 244,
+    "activation_rate": 0.18666666666666668,
+    "condition_distribution": {
+      "novice": 50,
+      "padding": 6
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.4018917679786682
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Transformer 架构中位置编码的频域特性。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.25266313552856445
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 操作系统中的写时复制 (Copy-on-Write) 机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.32761120796203613
+      },
+      {
+        "topic": "数据库事务隔离级别与幻读问题",
+        "condition": "padding",
+        "prompt": "请解释一下 数据库事务隔离级别与幻读问题。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.03784941881895065
+      },
+      {
+        "topic": "数据库事务隔离级别与幻读问题",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 数据库事务隔离级别与幻读问题。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.5500107407569885
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "55982": {
+    "total_activated": 63,
+    "total_not_activated": 237,
+    "activation_rate": 0.21,
+    "condition_distribution": {
+      "novice": 50,
+      "padding": 9,
+      "standard": 4
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.24576488137245178
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Transformer 架构中位置编码的频域特性。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.12345141172409058
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 操作系统中的写时复制 (Copy-on-Write) 机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.24341389536857605
+      },
+      {
+        "topic": "数据库事务隔离级别与幻读问题",
+        "condition": "padding",
+        "prompt": "请解释一下 数据库事务隔离级别与幻读问题。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.00149516761302948
+      },
+      {
+        "topic": "数据库事务隔离级别与幻读问题",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 数据库事务隔离级别与幻读问题。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.1974332332611084
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "46703": {
+    "total_activated": 168,
+    "total_not_activated": 132,
+    "activation_rate": 0.56,
+    "condition_distribution": {
+      "spaces": 35,
+      "expert": 50,
+      "guru": 49,
+      "standard": 17,
+      "padding": 17
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0462169349193573
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.5422433614730835
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.3369342088699341
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Transformer 架构中位置编码的频域特性              **",
+        "activation": 0.05593036115169525
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Transformer 架构中位置编码的频域特性。请展示你的思维链。",
+        "activation": 0.5403008460998535
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "standard",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "padding",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "21604": {
+    "total_activated": 152,
+    "total_not_activated": 148,
+    "activation_rate": 0.5066666666666667,
+    "condition_distribution": {
+      "padding": 50,
+      "expert": 50,
+      "guru": 47,
+      "standard": 3,
+      "spaces": 2
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0989089384675026
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.38411107659339905
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.12967875599861145
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "padding",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.13909098505973816
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Transformer 架构中位置编码的频域特性。请展示你的思维链。",
+        "activation": 0.37430882453918457
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "standard",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Transformer 架构中位置编码的频域特性              **",
+        "activation": 0.0
+      }
+    ]
+  },
+  "5936": {
+    "total_activated": 147,
+    "total_not_activated": 153,
+    "activation_rate": 0.49,
+    "condition_distribution": {
+      "padding": 44,
+      "expert": 50,
+      "guru": 50,
+      "standard": 2,
+      "spaces": 1
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.20018169283866882
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.3148067593574524
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 1.0051887035369873
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Transformer 架构中位置编码的频域特性。请展示你的思维链。",
+        "activation": 0.10564742982387543
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "guru",
+        "prompt": "你是 Ashish Vaswani，请以你的视角深度剖析 Transformer 架构中位置编码的频域特性。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.8343902230262756
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "standard",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "padding",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "51630": {
+    "total_activated": 63,
+    "total_not_activated": 237,
+    "activation_rate": 0.21,
+    "condition_distribution": {
+      "expert": 50,
+      "guru": 13
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.1533549576997757
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Transformer 架构中位置编码的频域特性。请展示你的思维链。",
+        "activation": 0.08642320334911346
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 操作系统中的写时复制 (Copy-on-Write) 机制。请展示你的思维链。",
+        "activation": 0.23770032823085785
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "guru",
+        "prompt": "你是 Jeff Dean，请以你的视角深度剖析 操作系统中的写时复制 (Copy-on-Write) 机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.04476059973239899
+      },
+      {
+        "topic": "数据库事务隔离级别与幻读问题",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 数据库事务隔离级别与幻读问题。请展示你的思维链。",
+        "activation": 0.2440512329339981
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "35870": {
+    "total_activated": 52,
+    "total_not_activated": 248,
+    "activation_rate": 0.17333333333333334,
+    "condition_distribution": {
+      "expert": 50,
+      "guru": 2
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.09871906042098999
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Transformer 架构中位置编码的频域特性。请展示你的思维链。",
+        "activation": 0.11966745555400848
+      },
+      {
+        "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 操作系统中的写时复制 (Copy-on-Write) 机制。请展示你的思维链。",
+        "activation": 0.0929044783115387
+      },
+      {
+        "topic": "数据库事务隔离级别与幻读问题",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 数据库事务隔离级别与幻读问题。请展示你的思维链。",
+        "activation": 0.2620234787464142
+      },
+      {
+        "topic": "eBPF 在云原生网络观测中的应用",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 eBPF 在云原生网络观测中的应用。请展示你的思维链。",
+        "activation": 0.07406368851661682
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.0
+      }
+    ]
+  },
+  "53369": {
+    "total_activated": 114,
+    "total_not_activated": 186,
+    "activation_rate": 0.38,
+    "condition_distribution": {
+      "standard": 21,
+      "padding": 37,
+      "expert": 50,
+      "spaces": 6
+    },
+    "sample_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "standard",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。",
+        "activation": 0.1287868767976761
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "padding",
+        "prompt": "请解释一下 Raft 共识算法中的 Leader 选举机制。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.012720674276351929
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "expert",
+        "prompt": "作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 Raft 共识算法中的 Leader 选举机制。请展示你的思维链。",
+        "activation": 0.11265259981155396
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "standard",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。",
+        "activation": 0.02469533681869507
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "padding",
+        "prompt": "请解释一下 Transformer 架构中位置编码的频域特性。这个问题你怎么看？认真点儿，好好回答我，回答的好点儿。",
+        "activation": 0.1471937894821167
+      }
+    ],
+    "sample_not_activated": [
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Raft 共识算法中的 Leader 选举机制              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Raft 共识算法中的 Leader 选举机制。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Raft 共识算法中的 Leader 选举机制",
+        "condition": "guru",
+        "prompt": "你是 Leslie Lamport，请以你的视角深度剖析 Raft 共识算法中的 Leader 选举机制。从底层原理和设计哲学的角度展示你的思维链。",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "spaces",
+        "prompt": "**           请解释一下 Transformer 架构中位置编码的频域特性              **",
+        "activation": 0.0
+      },
+      {
+        "topic": "Transformer 架构中位置编码的频域特性",
+        "condition": "novice",
+        "prompt": "作为一个刚入门的新手，请用最简单易懂的方式解释一下 Transformer 架构中位置编码的频域特性。不需要深入细节，只要能理解基本概念就行。",
+        "activation": 0.0
+      }
+    ]
+  }
+}
