@@ -4,7 +4,24 @@
 
 ## 快速开始
 
-### 1. 下载 SAE 模型
+### 0. 运行环境
+
+所有实验在 Docker 容器中运行：
+
+```bash
+# NVIDIA PyTorch 容器
+docker: nvcr.io/nvidia/pytorch:25.11-py3
+container: pink-ai
+
+# 目录映射
+host: ~/work/doc-share  →  container: /workspace/doc-share
+host: ~/work/models     →  container: /workspace/models
+
+# 实验目录
+/workspace/doc-share/arxiv/paper15/exp/SAE-llama/
+```
+
+### 0b. 下载 SAE 模型
 
 ```bash
 # 使用中国镜像（推荐）
@@ -27,7 +44,7 @@ decoder_linear.weight: [8192, 65536]  # 解码器
 decoder_linear.bias:   [8192]
 ```
 
-### 2. 提取激活
+### 1. 提取激活
 
 ```bash
 python step1_extract_activations.py
@@ -35,7 +52,7 @@ python step1_extract_activations.py
 
 输出：`activations_layer50.pt`
 
-### 3. SAE 解码
+### 2. SAE 解码
 
 ```bash
 python step2_sae_decode.py
@@ -43,13 +60,39 @@ python step2_sae_decode.py
 
 输出：`features_layer50.pt`
 
-### 4. 差异分析
+### 3. 差异分析
 
 ```bash
 python step3_diff_analysis.py
 ```
 
 输出：`feature_diff.json`
+
+### 4. 特征语义分析
+
+```bash
+python step4b_feature_context.py
+```
+
+输出：`feature_context.json`
+
+### 5. AutoInterp 分析
+
+```bash
+python step5_autointerp.py
+```
+
+输出：`autointerp_results.json`（6 条件 × 50 主题 = 300 样本的激活分布）
+
+### 6. UMAP 可视化
+
+```bash
+python step6_umap.py
+```
+
+输出：
+- `umap_activations.png`（原始 8192 维激活的 UMAP）
+- `umap_features.png`（SAE 65536 维稀疏特征的 UMAP）
 
 ---
 
@@ -182,6 +225,32 @@ Decoder: [65536 → 8192]  (重建原始激活)
 **解释：**"给新手解释"需要激活更多语义单元（类比、例子、背景知识），而"给专家解释"可以跳过这些，直接用术语。这就是 Novice EID > Expert EID 的神经机制基础。
 
 **"模式开关"假说：** 大语言模型内部存在专门的模式切换特征，用于区分不同的交流情境。这些特征在提示词解析阶段被激活，并持续影响后续的生成过程。
+
+### 6. UMAP 可视化（Day 3 新增）
+
+把 300 个样本（6 条件 × 50 主题）投影到 2D，观察语义空间分布。
+
+**原始激活 UMAP（8192 维）：**
+
+![umap_activations](umap_activations.png)
+
+**SAE 特征 UMAP（65536 维稀疏）：**
+
+![umap_features](umap_features.png)
+
+**关键发现：**
+
+1. **6 种条件在语义空间里完美分离**——UMAP 实锤了提示词条件决定激活位置
+2. **novice/expert/guru 始终孤立**——它们的语义信号本质不同
+3. **SAE 解码后，standard/padding/spaces 合并了**——SAE 把噪音（空格、废话）压缩掉，只保留语义信号
+4. **SAE 起到了语义去噪的作用**——novice 和 guru 在 SAE 空间里被推得更远
+
+| 条件 | 原始激活 | SAE 特征 |
+|------|----------|----------|
+| novice | 左下角，独立 | 右下角，更孤立 |
+| guru | 左上角，独立 | 左上角，更孤立 |
+| expert | 中间，独立 | 中间偏左，独立 |
+| standard/padding/spaces | 各自有小簇 | 合并成一个大簇 |
 
 ---
 
