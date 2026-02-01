@@ -2,7 +2,7 @@
 
 **Authors:** Yanyan Jin, Lei Zhao
 
-**Discussion Paper v1** — Extends [Zhao (2026)](https://zenodo.org/records/18410085) with Sparse Autoencoder analysis
+**Discussion Paper v2** — Extends [Zhao (2026)](https://zenodo.org/records/18410085) with Sparse Autoencoder analysis
 
 ---
 
@@ -147,6 +147,34 @@ We identify features with perfect separation (100% vs 0% activation):
 
 These are the **neural signatures** of teaching vs. technical communication styles.
 
+### 3.5 Feature Semantic Analysis: Prompt-Driven vs Topic-Driven
+
+To verify these features are truly **prompt-driven** rather than **topic-driven**, we examined their activation patterns across all 50 technical topics:
+
+| Feature ID | Type | Activation Rate | Mean Activation | Semantic Inference |
+|------------|------|-----------------|-----------------|-------------------|
+| **Novice-exclusive** ||||
+| 34942 | Novice | 100% (50/50) | 1.63 | "Teaching mode" master switch |
+| 59519 | Novice | 100% (50/50) | 1.60 | "Simplification" signal |
+| 17913 | Novice | 100% (50/50) | 0.49 | "Novice-targeting" modulator |
+| 55982 | Novice | 100% (50/50) | 0.18 | Auxiliary teaching signal |
+| **Expert-exclusive** ||||
+| 46703 | Expert | 100% (50/50) | 0.53 | "Expert mode" master switch |
+| 21604 | Expert | 100% (50/50) | 0.41 | "Deep analysis" signal |
+| 5936 | Expert | 100% (50/50) | 0.33 | "Low-level principles" modulator |
+| 51630 | Expert | 100% (50/50) | 0.23 | Auxiliary expert signal |
+| 35870 | Expert | 100% (50/50) | 0.17 | Auxiliary expert signal |
+| 53369 | Expert | 100% (50/50) | 0.13 | Auxiliary expert signal |
+
+**Key finding: All 10 features show 100% activation rate within their respective conditions.**
+
+This means:
+- Regardless of whether the topic is Raft consensus, Docker containers, or SQL injection
+- Using a Novice prompt **always** activates those 4 features
+- Using an Expert prompt **always** activates those 6 features
+
+**Conclusion: These are purely prompt-driven features, not topic-driven.** They constitute the model's **neural switches** for toggling between "teaching mode" and "expert mode."
+
 ### 3.4 Activation Intensity: No Significant Difference
 
 | Condition | Mean Activation (when active) |
@@ -194,11 +222,24 @@ Teaching requires:
 
 Each of these recruits additional features → higher EID → richer output.
 
-### 4.4 Limitations
+### 4.4 The "Mode Switch" Hypothesis
+
+Based on the findings in Section 3.5, we propose the **Mode Switch Hypothesis**:
+
+> Large language models contain dedicated "mode switching" features that distinguish between different communicative contexts (teaching vs. expert discussion). These features are activated during prompt parsing and persistently influence subsequent generation.
+
+Specifically:
+- **Features 34942/59519**: Likely signal "activate more background knowledge"
+- **Features 46703/21604**: Likely signal "assume audience has expertise"
+
+This parallels human communication's "audience awareness"—we adjust explanation detail based on the listener. The model appears to form this distinction by Layer 50 (~60% depth).
+
+### 4.5 Limitations
 
 1. **Layer 50 only:** Goodfire's SAE is trained on Layer 50; EID peaks at Layer 70. The most critical features may be invisible.
-2. **No feature labels:** We identify separating features but do not know their semantic meaning.
+2. **Feature labels are inferred:** We infer semantics from activation patterns but lack direct semantic validation (e.g., Neuronpedia labels).
 3. **Correlation, not causation:** We show feature differences exist but not that they cause output differences.
+4. **Single model:** Results are from Llama-3.3-70B; cross-model validation is needed.
 
 ---
 
@@ -206,12 +247,16 @@ Each of these recruits additional features → higher EID → richer output.
 
 This paper provides mechanistic evidence for the "Deep Layer Expansion" phenomenon:
 
-1. **Novice prompts activate 17% more SAE features** than expert prompts
-2. **369 features are novice-exclusive** vs 208 expert-exclusive
-3. **10 features achieve perfect separation** between conditions
-4. **Activation intensity is unchanged**—the effect is about which features, not how strongly
+1. **Novice prompts activate 17% more SAE features** than expert prompts (132.4 vs 113.1)
+2. **369 features are novice-exclusive** vs 208 expert-exclusive (+77% asymmetry)
+3. **10 features achieve perfect separation** between conditions (100% vs 0%)
+4. **These features are prompt-driven, not topic-driven**—regardless of the question, specific prompts always activate them
+5. **Activation intensity is unchanged**—the effect is about which features activate, not how strongly
 
-The implication for prompt engineering: **"Explain to a novice" may be a more powerful prompt than "explain as an expert"**—because teaching forces the model to activate more of its knowledge.
+Implications for prompt engineering:
+- **"Explain to a novice" may be more powerful than "explain as an expert"**—because teaching forces the model to activate more of its knowledge
+- **Models contain internal "mode switches"**—controllable through prompt design
+- **These switches are discoverable**—SAE provides a systematic method for identifying them
 
 ---
 
@@ -229,8 +274,12 @@ Zhao, L. (2026). Deep Layer Expansion: Expert Prompts Counteract Dimensional Col
 
 - **SAE model:** [Goodfire/Llama-3.3-70B-Instruct-SAE-l50](https://huggingface.co/Goodfire/Llama-3.3-70B-Instruct-SAE-l50)
 - **Experiment code:** [github.com/lmxxf/llama3-70b-sae-inspect](https://github.com/lmxxf/llama3-70b-sae-inspect)
-- **Feature analysis:** `feature_diff.json` in repository
+- **Feature analysis:** `feature_diff.json`, `feature_context.json` in repository
 
 ---
 
-**Last updated:** 2026-01-31
+**Version History:**
+- v1 (2026-01-31): Initial release with activation count and exclusive feature analysis
+- v2 (2026-02-01): Added Section 3.5 (feature semantic analysis), proposed "Mode Switch" hypothesis
+
+**Last updated:** 2026-02-01
