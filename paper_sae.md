@@ -1,6 +1,6 @@
 # Sparse Feature Analysis of Deep Layer Expansion: A Mechanistic Interpretation via SAE
 
-**Authors:** Yanyan Jin, Lei Zhao
+**Authors:** Jin Yanyan, Zhao Lei
 
 **Discussion Paper v2** — Extends [Zhao (2026)](https://zenodo.org/records/18410085) with Sparse Autoencoder analysis
 
@@ -8,7 +8,7 @@
 
 ## Abstract
 
-Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60-100% increase in Effective Intrinsic Dimension (EID) at deep layers. However, EID is a global metric that does not reveal **which semantic features** are activated. In this paper, we apply Sparse Autoencoder (SAE) analysis to decompose the activation differences between prompt styles. Using Goodfire's Llama-3.3-70B SAE (Layer 50, 65,536 features), we find that: (1) "Explain to a novice" activates **17% more features** than "explain to an expert" (132.4 vs 113.1 on average); (2) **369 features are exclusively activated by novice prompts** vs 208 for expert prompts; (3) **10 features show perfect separation** (100% activation in one condition, 0% in the other). These findings provide mechanistic evidence that prompt-induced EID differences reflect distinct **sparse feature activation patterns**, not merely statistical noise.
+Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60-100% increase in Effective Intrinsic Dimension (EID) at deep layers. However, EID is a global metric that does not reveal **which semantic features** are activated. In this paper, we apply Sparse Autoencoder (SAE) analysis to decompose the activation differences between prompt styles. Using Goodfire's Llama-3.3-70B SAE (Layer 50, 65,536 features), we find that: (1) "Explain to a novice" activates **17% more features** than "explain to an expert" (132.4 vs 113.1 on average); (2) **369 features are exclusively activated by novice prompts** vs 208 for expert prompts; (3) **10 features show perfect separation** between Novice vs Expert conditions; (4) Through AutoInterp analysis (6 conditions × 50 topics = 300 samples), we discover these features exhibit **semantic subdivision**—encoding distinct dimensions such as "expert identity," "serious attitude," "depth requirement," and "technical analysis." These findings suggest prompt effects are **compositional**, with different elements triggering different feature subsets.
 
 **Keywords:** Sparse Autoencoder, Interpretability, Prompt Engineering, Feature Activation, Llama
 
@@ -147,33 +147,43 @@ We identify features with perfect separation (100% vs 0% activation):
 
 These are the **neural signatures** of teaching vs. technical communication styles.
 
-### 3.5 Feature Semantic Analysis: Prompt-Driven vs Topic-Driven
+### 3.5 AutoInterp Feature Semantic Analysis
 
-To verify these features are truly **prompt-driven** rather than **topic-driven**, we examined their activation patterns across all 50 technical topics:
+To understand the true semantics of these 10 features, we use the AutoInterp method: analyzing each feature's activation distribution across **all 6 conditions** (6 × 50 = 300 samples).
 
-| Feature ID | Type | Activation Rate | Mean Activation | Semantic Inference |
-|------------|------|-----------------|-----------------|-------------------|
-| **Novice-exclusive** ||||
-| 34942 | Novice | 100% (50/50) | 1.63 | "Teaching mode" master switch |
-| 59519 | Novice | 100% (50/50) | 1.60 | "Simplification" signal |
-| 17913 | Novice | 100% (50/50) | 0.49 | "Novice-targeting" modulator |
-| 55982 | Novice | 100% (50/50) | 0.18 | Auxiliary teaching signal |
-| **Expert-exclusive** ||||
-| 46703 | Expert | 100% (50/50) | 0.53 | "Expert mode" master switch |
-| 21604 | Expert | 100% (50/50) | 0.41 | "Deep analysis" signal |
-| 5936 | Expert | 100% (50/50) | 0.33 | "Low-level principles" modulator |
-| 51630 | Expert | 100% (50/50) | 0.23 | Auxiliary expert signal |
-| 35870 | Expert | 100% (50/50) | 0.17 | Auxiliary expert signal |
-| 53369 | Expert | 100% (50/50) | 0.13 | Auxiliary expert signal |
+**Novice features cross-condition activation:**
 
-**Key finding: All 10 features show 100% activation rate within their respective conditions.**
+| Feature ID | Total Activated | Condition Distribution | Semantic Inference |
+|------------|-----------------|------------------------|-------------------|
+| 34942 | 56 | novice:50, standard:4, spaces:2 | "novice explanation" signal |
+| 59519 | 76 | novice:50, padding:10, spaces:11, standard:5 | "explanation request" signal |
+| 17913 | 56 | novice:50, padding:6 | "novice" exclusive signal (purest) |
+| 55982 | 63 | novice:50, padding:9, standard:4 | "novice explanation" signal |
 
-This means:
-- Regardless of whether the topic is Raft consensus, Docker containers, or SQL injection
-- Using a Novice prompt **always** activates those 4 features
-- Using an Expert prompt **always** activates those 6 features
+**Expert features cross-condition activation:**
 
-**Conclusion: These are purely prompt-driven features, not topic-driven.** They constitute the model's **neural switches** for toggling between "teaching mode" and "expert mode."
+| Feature ID | Total Activated | Condition Distribution | Semantic Inference |
+|------------|-----------------|------------------------|-------------------|
+| 35870 | 52 | expert:50, guru:2 | "expert identity" exclusive signal (purest) |
+| 51630 | 63 | expert:50, guru:13 | primarily "expert" |
+| 46703 | 168 | expert:50, guru:49, spaces:35, padding:17, standard:17 | "depth analysis" broad signal |
+| 21604 | 152 | expert:50, guru:47, **padding:50**, standard:3, spaces:2 | "serious response" signal |
+| 5936 | 147 | expert:50, **guru:50**, padding:44, standard:2, spaces:1 | "depth analysis" signal |
+| 53369 | 114 | expert:50, padding:37, standard:21, spaces:6, **guru:0** | "technical analysis" signal |
+
+**Key Findings:**
+
+1. **Feature 35870 is the purest expert signal**—50/50 in expert condition, only 2 guru samples leak. It specifically responds to "as a senior expert in this field."
+
+2. **Feature 21604 is fully triggered by padding condition (50/50)**—it responds to "be serious, answer carefully" type **attitude requirements**, not "expert identity."
+
+3. **Feature 5936 is fully triggered by guru condition (50/50)**—it responds to "from fundamental principles and design philosophy" type **depth analysis requirements**, shared by expert and guru.
+
+4. **Feature 53369 is not triggered by guru at all (0/50)**—it responds to **pure technical analysis**, and role-playing elements ("you are XXX") suppress this feature.
+
+**Conclusion: These 10 features are not simple "Novice switches" and "Expert switches," but a set of semantically subdivided features.** They encode distinct dimensions including "novice identity," "expert identity," "serious attitude," "depth requirement," and "technical analysis."
+
+**Methodological note:** Condition distributions are objective data; semantic labels are hypotheses inferred from the distributions. Full validation requires intervention experiments (amplifying/suppressing features and observing output changes).
 
 ### 3.4 Activation Intensity: No Significant Difference
 
@@ -222,17 +232,22 @@ Teaching requires:
 
 Each of these recruits additional features → higher EID → richer output.
 
-### 4.4 The "Mode Switch" Hypothesis
+### 4.4 Semantic Subdivision Hypothesis
 
-Based on the findings in Section 3.5, we propose the **Mode Switch Hypothesis**:
+Based on the AutoInterp analysis in Section 3.5, we revise the initial "Mode Switch" hypothesis:
 
-> Large language models contain dedicated "mode switching" features that distinguish between different communicative contexts (teaching vs. expert discussion). These features are activated during prompt parsing and persistently influence subsequent generation.
+> Prompts do not trigger a single "mode switch," but activate a set of **semantically subdivided features**. Different prompt elements (identity declaration, attitude requirement, depth requirement, role-playing) each trigger different feature subsets.
 
 Specifically:
-- **Features 34942/59519**: Likely signal "activate more background knowledge"
-- **Features 46703/21604**: Likely signal "assume audience has expertise"
+- **Feature 35870**: Specifically responds to "expert identity" declaration
+- **Feature 21604**: Responds to "serious response" attitude requirement (triggered by padding)
+- **Feature 5936**: Responds to "depth analysis" requirement (triggered by both expert and guru)
+- **Feature 53369**: Responds to "pure technical analysis" (suppressed by role-playing)
+- **Feature 17913**: Specifically responds to "novice" identity declaration
 
-This parallels human communication's "audience awareness"—we adjust explanation detail based on the listener. The model appears to form this distinction by Layer 50 (~60% depth).
+This means prompt effects are **compositional**—"as an expert, analyze carefully" triggers both identity features and attitude features, while "you are Linus Torvalds, analyze deeply" triggers role-playing features but suppresses pure technical analysis features.
+
+The model has formed this multi-dimensional semantic distinction by Layer 50 (~60% depth).
 
 ### 4.5 Limitations
 
@@ -249,14 +264,19 @@ This paper provides mechanistic evidence for the "Deep Layer Expansion" phenomen
 
 1. **Novice prompts activate 17% more SAE features** than expert prompts (132.4 vs 113.1)
 2. **369 features are novice-exclusive** vs 208 expert-exclusive (+77% asymmetry)
-3. **10 features achieve perfect separation** between conditions (100% vs 0%)
-4. **These features are prompt-driven, not topic-driven**—regardless of the question, specific prompts always activate them
+3. **10 features achieve perfect separation** between Novice vs Expert (100% vs 0%)
+4. **AutoInterp reveals these features have subdivided semantics**:
+   - Feature 35870: "expert identity" signal (purest, almost no guru triggering)
+   - Feature 21604: "serious response" signal (fully triggered by padding)
+   - Feature 5936: "depth analysis" signal (fully triggered by guru)
+   - Feature 53369: "technical analysis" signal (suppressed by guru)
 5. **Activation intensity is unchanged**—the effect is about which features activate, not how strongly
 
 Implications for prompt engineering:
 - **"Explain to a novice" may be more powerful than "explain as an expert"**—because teaching forces the model to activate more of its knowledge
-- **Models contain internal "mode switches"**—controllable through prompt design
-- **These switches are discoverable**—SAE provides a systematic method for identifying them
+- **Different prompt elements trigger different features**—identity declaration, attitude requirement, depth requirement each have their own neurons
+- **Role-playing changes activation patterns**—"you are XXX" triggers some features while suppressing others
+- **These features are discoverable**—SAE + AutoInterp provides a systematic method for identifying them
 
 ---
 
@@ -274,12 +294,12 @@ Zhao, L. (2026). Deep Layer Expansion: Expert Prompts Counteract Dimensional Col
 
 - **SAE model:** [Goodfire/Llama-3.3-70B-Instruct-SAE-l50](https://huggingface.co/Goodfire/Llama-3.3-70B-Instruct-SAE-l50)
 - **Experiment code:** [github.com/lmxxf/llama3-70b-sae-inspect](https://github.com/lmxxf/llama3-70b-sae-inspect)
-- **Feature analysis:** `feature_diff.json`, `feature_context.json` in repository
+- **Feature analysis:** `feature_diff.json`, `feature_context.json`, `autointerp_results.json` in repository
 
 ---
 
 **Version History:**
 - v1 (2026-01-31): Initial release with activation count and exclusive feature analysis
-- v2 (2026-02-01): Added Section 3.5 (feature semantic analysis), proposed "Mode Switch" hypothesis
+- v2 (2026-02-01): Added Section 3.5 AutoInterp feature semantic analysis, revealing semantic subdivision structure
 
 **Last updated:** 2026-02-01

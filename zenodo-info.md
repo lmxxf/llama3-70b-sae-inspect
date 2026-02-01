@@ -16,7 +16,7 @@
 
 **Description:**
 ```
-Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60-100% increase in Effective Intrinsic Dimension (EID) at deep layers. However, EID is a global metric that does not reveal which semantic features are activated. In this paper, we apply Sparse Autoencoder (SAE) analysis to decompose the activation differences between prompt styles. Using Goodfire's Llama-3.3-70B SAE (Layer 50, 65,536 features), we find that: (1) "Explain to a novice" activates 17% more features than "explain to an expert" (132.4 vs 113.1 on average); (2) 369 features are exclusively activated by novice prompts vs 208 for expert prompts; (3) 10 features show perfect separation (100% activation in one condition, 0% in the other); (4) These features are prompt-driven, not topic-driven—100% activation rate across all 50 topics within their respective conditions. We propose the "Mode Switch" hypothesis: LLMs contain dedicated features for toggling between teaching and expert communication modes. These findings provide mechanistic evidence that prompt-induced EID differences reflect distinct sparse feature activation patterns, not merely statistical noise.
+Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60-100% increase in Effective Intrinsic Dimension (EID) at deep layers. However, EID is a global metric that does not reveal which semantic features are activated. In this paper, we apply Sparse Autoencoder (SAE) analysis to decompose the activation differences between prompt styles. Using Goodfire's Llama-3.3-70B SAE (Layer 50, 65,536 features), we find that: (1) "Explain to a novice" activates 17% more features than "explain to an expert" (132.4 vs 113.1 on average); (2) 369 features are exclusively activated by novice prompts vs 208 for expert prompts; (3) 10 features show perfect separation between Novice vs Expert conditions; (4) Through AutoInterp analysis (6 conditions × 50 topics = 300 samples), we discover these features exhibit semantic subdivision—encoding distinct dimensions such as "expert identity," "serious attitude," "depth requirement," and "technical analysis." These findings suggest prompt effects are compositional, with different elements triggering different feature subsets.
 ```
 
 **Keywords:**
@@ -28,8 +28,9 @@ Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"
 - Llama
 - Deep Layer Expansion
 - LLM
-- Mode Switch
+- Semantic Subdivision
 - Neural Signature
+- AutoInterp
 
 ## Related Works
 
@@ -41,7 +42,7 @@ Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"
 ## Version History
 
 - **v1 (2026-01-31):** Initial release - activation count and exclusive feature analysis
-- **v2 (2026-02-01):** Added feature semantic analysis (Section 3.5), proposed "Mode Switch" hypothesis
+- **v2 (2026-02-01):** Added AutoInterp analysis (Section 3.5), discovered semantic subdivision structure
 
 ## Zenodo Record
 
