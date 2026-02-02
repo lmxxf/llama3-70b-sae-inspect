@@ -2,13 +2,13 @@
 
 **Authors:** Jin Yanyan, Zhao Lei
 
-**Discussion Paper v2** — Extends [Zhao (2026)](https://zenodo.org/records/18410085) with Sparse Autoencoder analysis
+**Discussion Paper v3** — Extends [Zhao (2026)](https://zenodo.org/records/18410085) with Sparse Autoencoder analysis
 
 ---
 
 ## Abstract
 
-Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60-100% increase in Effective Intrinsic Dimension (EID) at deep layers. However, EID is a global metric that does not reveal **which semantic features** are activated. In this paper, we apply Sparse Autoencoder (SAE) analysis to decompose the activation differences between prompt styles. Using Goodfire's Llama-3.3-70B SAE (Layer 50, 65,536 features), we find that: (1) "Explain to a novice" activates **17% more features** than "explain to an expert" (132.4 vs 113.1 on average); (2) **369 features are exclusively activated by novice prompts** vs 208 for expert prompts; (3) **10 features show perfect separation** between Novice vs Expert conditions; (4) Through AutoInterp analysis (6 conditions × 50 topics = 300 samples), we discover these features exhibit **semantic subdivision**—encoding distinct dimensions such as "expert identity," "serious attitude," "depth requirement," and "technical analysis." These findings suggest prompt effects are **compositional**, with different elements triggering different feature subsets.
+Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60-100% increase in Effective Intrinsic Dimension (EID) at deep layers. However, EID is a global metric that does not reveal **which semantic features** are activated. In this paper, we apply Sparse Autoencoder (SAE) analysis to decompose the activation differences between prompt styles. Using Goodfire's Llama-3.3-70B SAE (Layer 50, 65,536 features), we find that: (1) "Explain to a novice" activates **17% more features** than "explain to an expert" (132.4 vs 113.1 on average); (2) **369 features are exclusively activated by novice prompts** vs 208 for expert prompts; (3) **10 features show perfect separation** between Novice vs Expert conditions; (4) Through AutoInterp analysis (6 conditions × 50 topics = 300 samples), we discover these features exhibit **semantic subdivision**—encoding distinct dimensions such as "expert identity," "serious attitude," "depth requirement," and "technical analysis"; (5) **UMAP visualization confirms that 6 prompt conditions form distinct clusters** in both raw activation space and SAE feature space, with SAE acting as a semantic denoiser that merges noise-only conditions (standard/padding/spaces) while preserving semantic distinctions (novice/expert/guru). These findings suggest prompt effects are **compositional**, with different elements triggering different feature subsets.
 
 **Keywords:** Sparse Autoencoder, Interpretability, Prompt Engineering, Feature Activation, Llama
 
@@ -249,7 +249,38 @@ This means prompt effects are **compositional**—"as an expert, analyze careful
 
 The model has formed this multi-dimensional semantic distinction by Layer 50 (~60% depth).
 
-### 4.5 Limitations
+### 4.5 UMAP Visualization: Spatial Separation in Semantic Space
+
+To validate that prompt conditions induce distinct activation patterns, we project all 300 samples (6 conditions × 50 topics) into 2D using UMAP (Uniform Manifold Approximation and Projection).
+
+**Raw Activations (8192-dim):**
+
+The 6 conditions form 6 distinct clusters:
+- **novice** (green): bottom-left, isolated
+- **guru** (magenta): top-left, isolated
+- **expert** (red): center, isolated
+- **standard/padding/spaces**: separate small clusters on the right
+
+**SAE Features (65536-dim sparse):**
+
+After SAE decoding, the separation becomes cleaner:
+- **novice**: pushed to bottom-right, more isolated
+- **guru**: top-left, more isolated
+- **expert**: center-left, isolated
+- **standard/padding/spaces**: **merged into one cluster**
+
+| Condition | Raw Activations | SAE Features |
+|-----------|-----------------|--------------|
+| novice | bottom-left, isolated | bottom-right, more isolated |
+| guru | top-left, isolated | top-left, more isolated |
+| expert | center, isolated | center-left, isolated |
+| standard/padding/spaces | separate small clusters | merged into one cluster |
+
+**Key insight: SAE acts as a semantic denoiser.** The three "noise-only" conditions (standard, padding, spaces) have the same semantic signal—just "please explain"—with different noise (filler text, whitespace). Raw activations encode this noise, keeping them separate. SAE compresses away the noise, leaving only semantic content, so they merge.
+
+Meanwhile, novice/expert/guru have genuinely different semantic signals, so they remain separated (and become even more distinct) after SAE decoding.
+
+### 4.6 Limitations
 
 1. **Layer 50 only:** Goodfire's SAE is trained on Layer 50; EID peaks at Layer 70. The most critical features may be invisible.
 2. **Feature labels are inferred:** We infer semantics from activation patterns but lack direct semantic validation (e.g., Neuronpedia labels).
@@ -271,6 +302,7 @@ This paper provides mechanistic evidence for the "Deep Layer Expansion" phenomen
    - Feature 5936: "depth analysis" signal (fully triggered by guru)
    - Feature 53369: "technical analysis" signal (suppressed by guru)
 5. **Activation intensity is unchanged**—the effect is about which features activate, not how strongly
+6. **UMAP confirms spatial separation**: 6 conditions form distinct clusters; SAE denoises by merging standard/padding/spaces while preserving novice/expert/guru distinctions
 
 Implications for prompt engineering:
 - **"Explain to a novice" may be more powerful than "explain as an expert"**—because teaching forces the model to activate more of its knowledge
@@ -295,11 +327,13 @@ Zhao, L. (2026). Deep Layer Expansion: Expert Prompts Counteract Dimensional Col
 - **SAE model:** [Goodfire/Llama-3.3-70B-Instruct-SAE-l50](https://huggingface.co/Goodfire/Llama-3.3-70B-Instruct-SAE-l50)
 - **Experiment code:** [github.com/lmxxf/llama3-70b-sae-inspect](https://github.com/lmxxf/llama3-70b-sae-inspect)
 - **Feature analysis:** `feature_diff.json`, `feature_context.json`, `autointerp_results.json` in repository
+- **UMAP visualizations:** `umap_activations.png`, `umap_features.png` in repository
 
 ---
 
 **Version History:**
 - v1 (2026-01-31): Initial release with activation count and exclusive feature analysis
 - v2 (2026-02-01): Added Section 3.5 AutoInterp feature semantic analysis, revealing semantic subdivision structure
+- v3 (2026-02-02): Added Section 4.5 UMAP visualization, showing spatial separation and SAE denoising effect
 
-**Last updated:** 2026-02-01
+**Last updated:** 2026-02-02
