@@ -51,7 +51,7 @@ Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"
 
 - **v1:** https://zenodo.org/records/18441075
 - **v2:** https://zenodo.org/records/18449508
-- **v3:** https://zenodo.org/records/18457748
+- **v3:** https://zenodo.org/records/18457875
 
 ## Other Fields
 
