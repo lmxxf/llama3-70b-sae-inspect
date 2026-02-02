@@ -255,6 +255,8 @@ Zhao (2026) 表明 EID 随专家提示增加。我们的 SAE 分析揭示了机�
 
 **原始激活（8192 维）：**
 
+![原始激活的 UMAP](umap_activations.png)
+
 6 种条件形成 6 个独立簇：
 - **novice**（绿色）：左下角，孤立
 - **guru**（粉色）：左上角，孤立
@@ -262,6 +264,8 @@ Zhao (2026) 表明 EID 随专家提示增加。我们的 SAE 分析揭示了机�
 - **standard/padding/spaces**：右侧各自形成小簇
 
 **SAE 特征（65536 维稀疏）：**
+
+![SAE 特征的 UMAP](umap_features.png)
 
 SAE 解码后，分离更清晰：
 - **novice**：被推到右下角，更加孤立

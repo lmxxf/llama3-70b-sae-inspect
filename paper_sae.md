@@ -255,6 +255,8 @@ To validate that prompt conditions induce distinct activation patterns, we proje
 
 **Raw Activations (8192-dim):**
 
+![UMAP of Raw Activations](umap_activations.png)
+
 The 6 conditions form 6 distinct clusters:
 - **novice** (green): bottom-left, isolated
 - **guru** (magenta): top-left, isolated
@@ -262,6 +264,8 @@ The 6 conditions form 6 distinct clusters:
 - **standard/padding/spaces**: separate small clusters on the right
 
 **SAE Features (65536-dim sparse):**
+
+![UMAP of SAE Features](umap_features.png)
 
 After SAE decoding, the separation becomes cleaner:
 - **novice**: pushed to bottom-right, more isolated
