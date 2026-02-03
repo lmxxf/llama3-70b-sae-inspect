@@ -9,16 +9,11 @@
 所有实验在 Docker 容器中运行：
 
 ```bash
-# NVIDIA PyTorch 容器
-docker: nvcr.io/nvidia/pytorch:25.11-py3
-container: pink-ai
-
-# 目录映射
-host: ~/work/doc-share  →  container: /workspace/doc-share
-host: ~/work/models     →  container: /workspace/models
+# 启动并进入容器
+docker start pink-ai && docker exec -it pink-ai bash
 
 # 实验目录
-/workspace/doc-share/arxiv/paper15/exp/SAE-llama/
+cd /workspace/doc-share/arxiv/paper15/exp/SAE-llama/
 ```
 
 ### 0b. 下载 SAE 模型
@@ -281,9 +276,9 @@ Decoder: [65536 → 8192]  (重建原始激活)
 |------|------|---------|-----------|------|
 | Day 1 | SAE 基础 | v1 | "Novice 激活更多神经元"——用 SAE 看提示词差异 | ✅ |
 | Day 2 | AutoInterp | v2 | 用 AutoInterp 解码 10 个特征的语义 | ✅ |
-| Day 3 | UMAP 可视化 | v3 | 语义空间里的提示词地图 | TODO |
-| Day 4 | 跨模型验证 | v4 | Qwen vs Llama：提示词效应是通用的吗？ | TODO |
-| Day 5 | 综合结论 | final | 一句话总结：为什么"给新手解释"更聪明 | TODO |
+| Day 3 | UMAP 可视化 | v3 | 语义空间里的提示词地图 | ✅ |
+| Day 4 | 输出质量评测 | v4 | DeepSeek 盲评：激活更多 = 输出更好？ | 🔄 运行中 |
+| Day 5 | 综合结论 | final | 激活数 vs 输出长度 vs 质量：三角关系 | TODO |
 
 ---
 
