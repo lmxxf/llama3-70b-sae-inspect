@@ -9,8 +9,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Output
-*.json
+# Output (keep json for experiment data)
 
 # Temp
 temp.md

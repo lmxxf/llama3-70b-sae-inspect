@@ -1,0 +1,1026 @@
+{
+  "novice_features": {
+    "34942": [
+      {
+        "token_id": 126474,
+        "token": " 아침",
+        "similarity": 0.046
+      },
+      {
+        "token_id": 114626,
+        "token": "最後",
+        "similarity": 0.046
+      },
+      {
+        "token_id": 95093,
+        "token": "='-",
+        "similarity": 0.0445
+      },
+      {
+        "token_id": 8679,
+        "token": " dress",
+        "similarity": 0.044
+      },
+      {
+        "token_id": 15177,
+        "token": " council",
+        "similarity": 0.0438
+      },
+      {
+        "token_id": 63888,
+        "token": " elek",
+        "similarity": 0.0438
+      },
+      {
+        "token_id": 102523,
+        "token": " спе",
+        "similarity": 0.043
+      },
+      {
+        "token_id": 108917,
+        "token": " елек",
+        "similarity": 0.042
+      },
+      {
+        "token_id": 76530,
+        "token": "_friends",
+        "similarity": 0.0417
+      },
+      {
+        "token_id": 32478,
+        "token": "kc",
+        "similarity": 0.04
+      },
+      {
+        "token_id": 124934,
+        "token": " �",
+        "similarity": 0.0397
+      },
+      {
+        "token_id": 31005,
+        "token": " strongest",
+        "similarity": 0.0395
+      },
+      {
+        "token_id": 14769,
+        "token": " designs",
+        "similarity": 0.0393
+      },
+      {
+        "token_id": 12845,
+        "token": " victory",
+        "similarity": 0.0392
+      },
+      {
+        "token_id": 368,
+        "token": "()",
+        "similarity": 0.0391
+      },
+      {
+        "token_id": 6547,
+        "token": " })",
+        "similarity": 0.0391
+      },
+      {
+        "token_id": 20723,
+        "token": " followers",
+        "similarity": 0.0391
+      },
+      {
+        "token_id": 57926,
+        "token": " concess",
+        "similarity": 0.039
+      },
+      {
+        "token_id": 38719,
+        "token": "Polygon",
+        "similarity": 0.0385
+      },
+      {
+        "token_id": 109166,
+        "token": " سیستم",
+        "similarity": 0.0385
+      }
+    ],
+    "55982": [
+      {
+        "token_id": 110863,
+        "token": " 와",
+        "similarity": 0.0478
+      },
+      {
+        "token_id": 3572,
+        "token": ".on",
+        "similarity": 0.0478
+      },
+      {
+        "token_id": 95877,
+        "token": "Ranked",
+        "similarity": 0.0467
+      },
+      {
+        "token_id": 59771,
+        "token": " blaming",
+        "similarity": 0.0449
+      },
+      {
+        "token_id": 315,
+        "token": " of",
+        "similarity": 0.0442
+      },
+      {
+        "token_id": 127369,
+        "token": "하는데",
+        "similarity": 0.0439
+      },
+      {
+        "token_id": 311,
+        "token": " to",
+        "similarity": 0.0437
+      },
+      {
+        "token_id": 61685,
+        "token": " Armour",
+        "similarity": 0.0435
+      },
+      {
+        "token_id": 57695,
+        "token": "/she",
+        "similarity": 0.0432
+      },
+      {
+        "token_id": 35792,
+        "token": " requesting",
+        "similarity": 0.0431
+      },
+      {
+        "token_id": 27580,
+        "token": " drawer",
+        "similarity": 0.043
+      },
+      {
+        "token_id": 21105,
+        "token": "し�",
+        "similarity": 0.0428
+      },
+      {
+        "token_id": 96045,
+        "token": "(Route",
+        "similarity": 0.0425
+      },
+      {
+        "token_id": 85463,
+        "token": "Appe",
+        "similarity": 0.0418
+      },
+      {
+        "token_id": 28018,
+        "token": "_Se",
+        "similarity": 0.0411
+      },
+      {
+        "token_id": 38436,
+        "token": "(named",
+        "similarity": 0.0408
+      },
+      {
+        "token_id": 70219,
+        "token": "\tcanvas",
+        "similarity": 0.0407
+      },
+      {
+        "token_id": 119682,
+        "token": " води",
+        "similarity": 0.0404
+      },
+      {
+        "token_id": 84696,
+        "token": " 받",
+        "similarity": 0.0403
+      },
+      {
+        "token_id": 27503,
+        "token": "(handle",
+        "similarity": 0.0402
+      }
+    ],
+    "17913": [
+      {
+        "token_id": 122181,
+        "token": " Hãy",
+        "similarity": 0.0537
+      },
+      {
+        "token_id": 108616,
+        "token": " hãy",
+        "similarity": 0.0526
+      },
+      {
+        "token_id": 36661,
+        "token": "hey",
+        "similarity": 0.0456
+      },
+      {
+        "token_id": 39044,
+        "token": " cui",
+        "similarity": 0.0434
+      },
+      {
+        "token_id": 93493,
+        "token": " Blasio",
+        "similarity": 0.0433
+      },
+      {
+        "token_id": 23913,
+        "token": "qt",
+        "similarity": 0.0417
+      },
+      {
+        "token_id": 73675,
+        "token": "extras",
+        "similarity": 0.0411
+      },
+      {
+        "token_id": 100500,
+        "token": "ıy",
+        "similarity": 0.0408
+      },
+      {
+        "token_id": 26679,
+        "token": " determining",
+        "similarity": 0.0406
+      },
+      {
+        "token_id": 72327,
+        "token": "indexes",
+        "similarity": 0.0403
+      },
+      {
+        "token_id": 99924,
+        "token": "Feat",
+        "similarity": 0.0395
+      },
+      {
+        "token_id": 101954,
+        "token": "던",
+        "similarity": 0.0388
+      },
+      {
+        "token_id": 109364,
+        "token": "луч",
+        "similarity": 0.0388
+      },
+      {
+        "token_id": 52157,
+        "token": "Imagine",
+        "similarity": 0.0386
+      },
+      {
+        "token_id": 30537,
+        "token": "第",
+        "similarity": 0.0385
+      },
+      {
+        "token_id": 43792,
+        "token": " siti",
+        "similarity": 0.0385
+      },
+      {
+        "token_id": 106574,
+        "token": "укт",
+        "similarity": 0.038
+      },
+      {
+        "token_id": 14912,
+        "token": "ucc",
+        "similarity": 0.0378
+      },
+      {
+        "token_id": 5099,
+        "token": " etc",
+        "similarity": 0.0376
+      },
+      {
+        "token_id": 124044,
+        "token": "rech",
+        "similarity": 0.0376
+      }
+    ],
+    "59519": [
+      {
+        "token_id": 28512,
+        "token": " Nash",
+        "similarity": 0.0511
+      },
+      {
+        "token_id": 96285,
+        "token": " Brigham",
+        "similarity": 0.0428
+      },
+      {
+        "token_id": 115747,
+        "token": " світу",
+        "similarity": 0.0418
+      },
+      {
+        "token_id": 111834,
+        "token": " ماي",
+        "similarity": 0.0418
+      },
+      {
+        "token_id": 118146,
+        "token": "目を",
+        "similarity": 0.041
+      },
+      {
+        "token_id": 40371,
+        "token": " Lebanon",
+        "similarity": 0.0407
+      },
+      {
+        "token_id": 125816,
+        "token": " Sadece",
+        "similarity": 0.0401
+      },
+      {
+        "token_id": 77334,
+        "token": " membuat",
+        "similarity": 0.039
+      },
+      {
+        "token_id": 53474,
+        "token": " sixty",
+        "similarity": 0.0384
+      },
+      {
+        "token_id": 106118,
+        "token": " آی",
+        "similarity": 0.0381
+      },
+      {
+        "token_id": 7678,
+        "token": "win",
+        "similarity": 0.038
+      },
+      {
+        "token_id": 45101,
+        "token": " anda",
+        "similarity": 0.038
+      },
+      {
+        "token_id": 37003,
+        "token": " Venezuela",
+        "similarity": 0.0379
+      },
+      {
+        "token_id": 75408,
+        "token": " Asians",
+        "similarity": 0.0375
+      },
+      {
+        "token_id": 71241,
+        "token": "=\"@",
+        "similarity": 0.0374
+      },
+      {
+        "token_id": 85135,
+        "token": "-Russian",
+        "similarity": 0.0374
+      },
+      {
+        "token_id": 113064,
+        "token": " цієї",
+        "similarity": 0.0373
+      },
+      {
+        "token_id": 104400,
+        "token": " علی",
+        "similarity": 0.0373
+      },
+      {
+        "token_id": 61220,
+        "token": "Ut",
+        "similarity": 0.0372
+      },
+      {
+        "token_id": 51352,
+        "token": " Supplies",
+        "similarity": 0.0372
+      }
+    ]
+  },
+  "expert_features": {
+    "51630": [
+      {
+        "token_id": 100925,
+        "token": "чес",
+        "similarity": 0.0473
+      },
+      {
+        "token_id": 99715,
+        "token": "yat",
+        "similarity": 0.0462
+      },
+      {
+        "token_id": 4781,
+        "token": "pat",
+        "similarity": 0.0455
+      },
+      {
+        "token_id": 70407,
+        "token": " Scouts",
+        "similarity": 0.045
+      },
+      {
+        "token_id": 120642,
+        "token": " oček",
+        "similarity": 0.0444
+      },
+      {
+        "token_id": 77952,
+        "token": " (>",
+        "similarity": 0.0439
+      },
+      {
+        "token_id": 82232,
+        "token": " Dropout",
+        "similarity": 0.0431
+      },
+      {
+        "token_id": 92632,
+        "token": ".stem",
+        "similarity": 0.0431
+      },
+      {
+        "token_id": 22952,
+        "token": " Forward",
+        "similarity": 0.0419
+      },
+      {
+        "token_id": 15088,
+        "token": "ок",
+        "similarity": 0.0412
+      },
+      {
+        "token_id": 16344,
+        "token": " Rose",
+        "similarity": 0.0411
+      },
+      {
+        "token_id": 15181,
+        "token": "Framework",
+        "similarity": 0.041
+      },
+      {
+        "token_id": 73896,
+        "token": ")(*",
+        "similarity": 0.0409
+      },
+      {
+        "token_id": 107764,
+        "token": "σαν",
+        "similarity": 0.0406
+      },
+      {
+        "token_id": 109867,
+        "token": " начина",
+        "similarity": 0.0406
+      },
+      {
+        "token_id": 70971,
+        "token": " scouts",
+        "similarity": 0.0405
+      },
+      {
+        "token_id": 27735,
+        "token": "(property",
+        "similarity": 0.0403
+      },
+      {
+        "token_id": 15972,
+        "token": " taught",
+        "similarity": 0.04
+      },
+      {
+        "token_id": 38329,
+        "token": " Archives",
+        "similarity": 0.04
+      },
+      {
+        "token_id": 85230,
+        "token": "LEC",
+        "similarity": 0.04
+      }
+    ],
+    "35870": [
+      {
+        "token_id": 49375,
+        "token": " KeyEvent",
+        "similarity": 0.0463
+      },
+      {
+        "token_id": 126157,
+        "token": " найкра",
+        "similarity": 0.0462
+      },
+      {
+        "token_id": 87599,
+        "token": " BJ",
+        "similarity": 0.0461
+      },
+      {
+        "token_id": 53310,
+        "token": "licas",
+        "similarity": 0.0455
+      },
+      {
+        "token_id": 75991,
+        "token": " AppState",
+        "similarity": 0.0447
+      },
+      {
+        "token_id": 114564,
+        "token": "텐",
+        "similarity": 0.0432
+      },
+      {
+        "token_id": 122689,
+        "token": " качества",
+        "similarity": 0.0423
+      },
+      {
+        "token_id": 93345,
+        "token": "LabelText",
+        "similarity": 0.0423
+      },
+      {
+        "token_id": 100486,
+        "token": "ध",
+        "similarity": 0.0416
+      },
+      {
+        "token_id": 92223,
+        "token": " sesame",
+        "similarity": 0.0407
+      },
+      {
+        "token_id": 70317,
+        "token": " Barton",
+        "similarity": 0.0406
+      },
+      {
+        "token_id": 80308,
+        "token": "&)\n",
+        "similarity": 0.0404
+      },
+      {
+        "token_id": 82185,
+        "token": " Lori",
+        "similarity": 0.0402
+      },
+      {
+        "token_id": 14085,
+        "token": " react",
+        "similarity": 0.0399
+      },
+      {
+        "token_id": 531,
+        "token": "ert",
+        "similarity": 0.0399
+      },
+      {
+        "token_id": 24629,
+        "token": " beneficial",
+        "similarity": 0.0399
+      },
+      {
+        "token_id": 7922,
+        "token": "ifying",
+        "similarity": 0.0398
+      },
+      {
+        "token_id": 84968,
+        "token": " LCS",
+        "similarity": 0.0397
+      },
+      {
+        "token_id": 55092,
+        "token": " Yun",
+        "similarity": 0.0394
+      },
+      {
+        "token_id": 52294,
+        "token": " Walsh",
+        "similarity": 0.0391
+      }
+    ],
+    "5936": [
+      {
+        "token_id": 27780,
+        "token": "hub",
+        "similarity": 0.043
+      },
+      {
+        "token_id": 17090,
+        "token": "inen",
+        "similarity": 0.042
+      },
+      {
+        "token_id": 57002,
+        "token": "상",
+        "similarity": 0.0411
+      },
+      {
+        "token_id": 85975,
+        "token": "(Properties",
+        "similarity": 0.0402
+      },
+      {
+        "token_id": 108383,
+        "token": " المش",
+        "similarity": 0.0397
+      },
+      {
+        "token_id": 99443,
+        "token": " posix",
+        "similarity": 0.0395
+      },
+      {
+        "token_id": 62631,
+        "token": " Shapes",
+        "similarity": 0.0394
+      },
+      {
+        "token_id": 8062,
+        "token": "Properties",
+        "similarity": 0.0393
+      },
+      {
+        "token_id": 40755,
+        "token": "RARY",
+        "similarity": 0.0391
+      },
+      {
+        "token_id": 1070,
+        "token": " there",
+        "similarity": 0.0389
+      },
+      {
+        "token_id": 37442,
+        "token": " endpoints",
+        "similarity": 0.0383
+      },
+      {
+        "token_id": 57117,
+        "token": "SRC",
+        "similarity": 0.0379
+      },
+      {
+        "token_id": 64829,
+        "token": "nelle",
+        "similarity": 0.0378
+      },
+      {
+        "token_id": 69003,
+        "token": " arriv",
+        "similarity": 0.0376
+      },
+      {
+        "token_id": 102611,
+        "token": "준",
+        "similarity": 0.0375
+      },
+      {
+        "token_id": 49338,
+        "token": ".listener",
+        "similarity": 0.037
+      },
+      {
+        "token_id": 78457,
+        "token": " grayscale",
+        "similarity": 0.0368
+      },
+      {
+        "token_id": 9336,
+        "token": "well",
+        "similarity": 0.0367
+      },
+      {
+        "token_id": 382,
+        "token": ".\n\n",
+        "similarity": 0.0364
+      },
+      {
+        "token_id": 100270,
+        "token": "џџџџ",
+        "similarity": 0.0362
+      }
+    ],
+    "21604": [
+      {
+        "token_id": 76034,
+        "token": " gamb",
+        "similarity": 0.0442
+      },
+      {
+        "token_id": 31346,
+        "token": " Oliver",
+        "similarity": 0.0423
+      },
+      {
+        "token_id": 26292,
+        "token": " Issue",
+        "similarity": 0.0418
+      },
+      {
+        "token_id": 112909,
+        "token": "手を",
+        "similarity": 0.0417
+      },
+      {
+        "token_id": 123224,
+        "token": "laví",
+        "similarity": 0.0414
+      },
+      {
+        "token_id": 81676,
+        "token": "ToSend",
+        "similarity": 0.0412
+      },
+      {
+        "token_id": 50895,
+        "token": " Mathematics",
+        "similarity": 0.041
+      },
+      {
+        "token_id": 109754,
+        "token": " элем",
+        "similarity": 0.0406
+      },
+      {
+        "token_id": 120019,
+        "token": "相当",
+        "similarity": 0.0405
+      },
+      {
+        "token_id": 63710,
+        "token": " *);\n\n",
+        "similarity": 0.0404
+      },
+      {
+        "token_id": 75576,
+        "token": "Fd",
+        "similarity": 0.0397
+      },
+      {
+        "token_id": 56107,
+        "token": " Bam",
+        "similarity": 0.0396
+      },
+      {
+        "token_id": 76114,
+        "token": "]+)/",
+        "similarity": 0.0393
+      },
+      {
+        "token_id": 61679,
+        "token": ".ToolTip",
+        "similarity": 0.0392
+      },
+      {
+        "token_id": 37253,
+        "token": " sleeve",
+        "similarity": 0.0389
+      },
+      {
+        "token_id": 7841,
+        "token": "________________",
+        "similarity": 0.0385
+      },
+      {
+        "token_id": 105790,
+        "token": " 名前",
+        "similarity": 0.0384
+      },
+      {
+        "token_id": 73357,
+        "token": " hemos",
+        "similarity": 0.0382
+      },
+      {
+        "token_id": 94705,
+        "token": " superst",
+        "similarity": 0.0382
+      },
+      {
+        "token_id": 65499,
+        "token": "(World",
+        "similarity": 0.038
+      }
+    ],
+    "53369": [
+      {
+        "token_id": 26994,
+        "token": "sembled",
+        "similarity": 0.0475
+      },
+      {
+        "token_id": 115105,
+        "token": " 神马收录",
+        "similarity": 0.0471
+      },
+      {
+        "token_id": 118613,
+        "token": "ンピ",
+        "similarity": 0.046
+      },
+      {
+        "token_id": 34718,
+        "token": ".IntegerField",
+        "similarity": 0.0449
+      },
+      {
+        "token_id": 85071,
+        "token": "$PostalCodesNL",
+        "similarity": 0.044
+      },
+      {
+        "token_id": 63952,
+        "token": "setUp",
+        "similarity": 0.0438
+      },
+      {
+        "token_id": 70781,
+        "token": "getError",
+        "similarity": 0.0437
+      },
+      {
+        "token_id": 19873,
+        "token": " conver",
+        "similarity": 0.0436
+      },
+      {
+        "token_id": 23890,
+        "token": "924",
+        "similarity": 0.0434
+      },
+      {
+        "token_id": 107,
+        "token": "�",
+        "similarity": 0.0433
+      },
+      {
+        "token_id": 80370,
+        "token": " ForCanBeConvertedToF",
+        "similarity": 0.0431
+      },
+      {
+        "token_id": 90567,
+        "token": "(runtime",
+        "similarity": 0.0423
+      },
+      {
+        "token_id": 102794,
+        "token": "��",
+        "similarity": 0.0423
+      },
+      {
+        "token_id": 92389,
+        "token": "gcd",
+        "similarity": 0.0422
+      },
+      {
+        "token_id": 116666,
+        "token": " gerçekten",
+        "similarity": 0.0417
+      },
+      {
+        "token_id": 102235,
+        "token": "ภาพ",
+        "similarity": 0.041
+      },
+      {
+        "token_id": 92655,
+        "token": "NAV",
+        "similarity": 0.0409
+      },
+      {
+        "token_id": 72969,
+        "token": ".Uint",
+        "similarity": 0.0409
+      },
+      {
+        "token_id": 15172,
+        "token": "Reset",
+        "similarity": 0.0408
+      },
+      {
+        "token_id": 124987,
+        "token": " فنی",
+        "similarity": 0.0406
+      }
+    ],
+    "46703": [
+      {
+        "token_id": 627,
+        "token": ".\n",
+        "similarity": 0.0546
+      },
+      {
+        "token_id": 2674,
+        "token": "Point",
+        "similarity": 0.0473
+      },
+      {
+        "token_id": 3697,
+        "token": " members",
+        "similarity": 0.0463
+      },
+      {
+        "token_id": 49216,
+        "token": ".”\n",
+        "similarity": 0.0455
+      },
+      {
+        "token_id": 198,
+        "token": "\n",
+        "similarity": 0.0447
+      },
+      {
+        "token_id": 382,
+        "token": ".\n\n",
+        "similarity": 0.0441
+      },
+      {
+        "token_id": 128209,
+        "token": "<|reserved_special_token_201|>",
+        "similarity": 0.0426
+      },
+      {
+        "token_id": 340,
+        "token": ")\n",
+        "similarity": 0.0426
+      },
+      {
+        "token_id": 509,
+        "token": "ld",
+        "similarity": 0.0423
+      },
+      {
+        "token_id": 5764,
+        "token": " includes",
+        "similarity": 0.0418
+      },
+      {
+        "token_id": 86557,
+        "token": " LOWER",
+        "similarity": 0.0418
+      },
+      {
+        "token_id": 6282,
+        "token": "ø",
+        "similarity": 0.0416
+      },
+      {
+        "token_id": 4558,
+        "token": "è",
+        "similarity": 0.0413
+      },
+      {
+        "token_id": 22804,
+        "token": "Figure",
+        "similarity": 0.0409
+      },
+      {
+        "token_id": 3718,
+        "token": " };\n\n",
+        "similarity": 0.0407
+      },
+      {
+        "token_id": 35331,
+        "token": " hike",
+        "similarity": 0.0407
+      },
+      {
+        "token_id": 72584,
+        "token": " Anch",
+        "similarity": 0.0404
+      },
+      {
+        "token_id": 88257,
+        "token": "_ttl",
+        "similarity": 0.0404
+      },
+      {
+        "token_id": 5380,
+        "token": "?\n",
+        "similarity": 0.0403
+      },
+      {
+        "token_id": 8052,
+        "token": "_request",
+        "similarity": 0.04
+      }
+    ]
+  }
+}

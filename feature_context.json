@@ -1,0 +1,2096 @@
+{
+  "novice_features": {
+    "34942": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 1.6289,
+      "max_activation": 2.0865,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 1.5049
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 1.7745
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 1.6005
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 1.925
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 1.4959
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 1.2626
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 1.521
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 1.5293
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 1.4942
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 1.8446
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 1.6361
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 1.7496
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 1.4835
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 1.6626
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 1.7025
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 1.633
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 1.7567
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 1.7596
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 1.7136
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 1.4355
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 1.8746
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 1.5207
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 1.6559
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 1.5624
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 1.6291
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 1.4801
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 1.4077
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 2.0154
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 1.7066
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 2.0348
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 1.725
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 1.2417
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 2.0865
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 1.512
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 1.3722
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 1.5951
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 1.6288
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 1.6911
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 1.6322
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 1.3517
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 1.6356
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 1.5266
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 1.625
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 1.5903
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 1.6399
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 1.3864
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 1.6476
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 1.6003
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 2.0238
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 1.5606
+        }
+      ]
+    },
+    "55982": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.1757,
+      "max_activation": 0.3051,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.2458
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.1235
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.2434
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.1974
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.176
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.2068
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.2315
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.1695
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.1005
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.1717
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.2708
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.1927
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.1399
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.1497
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.1722
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.2096
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.143
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.1716
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.1573
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.2588
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.2517
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.3051
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.2618
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.2222
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.2021
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.1847
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.0798
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.1928
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.1638
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.1567
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.1646
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.0254
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.2633
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.1583
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.0741
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.1804
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.1278
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.0991
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.0996
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.302
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.2376
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.1937
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.1689
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.0236
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.2583
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.0038
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.1236
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.0832
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.1862
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.2576
+        }
+      ]
+    },
+    "17913": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.4949,
+      "max_activation": 0.7172,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.4019
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.2527
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.3276
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.55
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.4513
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.5529
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.5423
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.527
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.5528
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.7172
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.2802
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.518
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.5457
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.4286
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.3318
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.2803
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.3325
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.6015
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.4404
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.4119
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.3191
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.5169
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.4769
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.6155
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.6083
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.6824
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.2409
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.6915
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.6151
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.5546
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.4953
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.4663
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.3
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.4662
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.5523
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.6253
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.5364
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.576
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.6553
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.5528
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.6468
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.5084
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.5819
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.3891
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.4262
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.4702
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.4348
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.7078
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.5102
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.4749
+        }
+      ]
+    },
+    "59519": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 1.5952,
+      "max_activation": 2.107,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 1.4499
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 1.5695
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 1.8404
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 1.9445
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 1.3868
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 1.2307
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 1.4708
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 1.3523
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 1.3767
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 1.7221
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 1.3592
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 1.7049
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 1.7865
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 1.3759
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 1.4943
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 1.4975
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 1.8307
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 1.5599
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 1.9772
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 1.318
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 1.9784
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 1.3174
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 1.6186
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 1.674
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 1.5236
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 1.6278
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 1.5481
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 1.7923
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 1.6787
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 1.8004
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 1.8044
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 1.55
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 1.7053
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 1.6169
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 1.3717
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 1.4484
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 1.4444
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 1.4383
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 1.9871
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 1.6206
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 1.4603
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 1.5239
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 1.5934
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 1.2723
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 1.4196
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 1.3871
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 1.7497
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 1.8769
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 2.107
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 1.577
+        }
+      ]
+    }
+  },
+  "expert_features": {
+    "51630": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.2264,
+      "max_activation": 0.346,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.1534
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.0864
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.2377
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.2441
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.2092
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.2077
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.2995
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.1588
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.3071
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.1266
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.2055
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.1925
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.1575
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.2257
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.346
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.295
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.211
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.2644
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.0226
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.0633
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.0881
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.3132
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.2123
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.3078
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.2128
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.3441
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.3245
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.333
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.1711
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.3207
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.3332
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.1527
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.0935
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.2772
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.2338
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.2378
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.2756
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.1674
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.0941
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.2083
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.2765
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.2404
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.2037
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.2642
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.2773
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.3331
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.255
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.2713
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.2935
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.1903
+        }
+      ]
+    },
+    "35870": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.1671,
+      "max_activation": 0.3229,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.0987
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.1197
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.0929
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.262
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.0741
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.183
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.1935
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.1954
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.1563
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.0899
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.1117
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.0792
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.1048
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.1114
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.1811
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.2763
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.1199
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.2153
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.0445
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.1506
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.0551
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.2894
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.2488
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.2737
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.1289
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.1648
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.1437
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.2079
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.0735
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.2257
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.2792
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.3229
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.1714
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.1299
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.0885
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.2231
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.1413
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.1624
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.1725
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.2537
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.2071
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.2511
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.1119
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.2807
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.1483
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.1474
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.2419
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.0802
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.1322
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.1363
+        }
+      ]
+    },
+    "5936": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.329,
+      "max_activation": 0.6216,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.3148
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.1056
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.3564
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.4149
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.4864
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.2033
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.4185
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.4444
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.307
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.3488
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.2168
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.359
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.2879
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.3858
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.2992
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.3135
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.1347
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.315
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.265
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.2045
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.3965
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.2588
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.2374
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.3961
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.3594
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.5241
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.1908
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.6216
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.3225
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.4476
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.4194
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.1534
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.1107
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.4499
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.2491
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.339
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.221
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.4144
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.1739
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.2062
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.3948
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.368
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.4009
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.3047
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.2858
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.4875
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.4692
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.4445
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.3981
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.2231
+        }
+      ]
+    },
+    "21604": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.4131,
+      "max_activation": 0.6116,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.3841
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.3743
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.4461
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.4698
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.4661
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.4164
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.4381
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.4156
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.5449
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.3458
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.4017
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.4586
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.3185
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.3432
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.6116
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.4355
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.3314
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.5499
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.3719
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.3391
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.4156
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.3628
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.3937
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.3658
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.4499
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.3839
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.4045
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.4683
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.3726
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.489
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.4183
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.2976
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.4979
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.449
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.4844
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.3119
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.5259
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.4518
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.4263
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.2268
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.4087
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.4819
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.4474
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.3812
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.3715
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.4127
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.3741
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.3978
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.3992
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.3232
+        }
+      ]
+    },
+    "53369": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.1255,
+      "max_activation": 0.2463,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.1127
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.2098
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.13
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.1209
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.1071
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.1155
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.1444
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.0998
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.0494
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.1417
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.0952
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.117
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.1193
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.1966
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.0122
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.1029
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.1829
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.1807
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.2463
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.1534
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.1313
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.113
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.0925
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.2062
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.1313
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.1076
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.1217
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.1302
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.0834
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.102
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.114
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.2019
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.2003
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.1142
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.1311
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.0972
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.1089
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.0951
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.1213
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.1125
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.0721
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.1165
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.1021
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.0932
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.1163
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.1133
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.1018
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.1442
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.1845
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.076
+        }
+      ]
+    },
+    "46703": {
+      "total_samples": 50,
+      "activated_count": 50,
+      "activation_rate": 1.0,
+      "mean_activation": 0.5296,
+      "max_activation": 0.8368,
+      "activated_topics": [
+        {
+          "topic": "Raft 共识算法中的 Leader 选举机制",
+          "activation": 0.5422
+        },
+        {
+          "topic": "Transformer 架构中位置编码的频域特性",
+          "activation": 0.5403
+        },
+        {
+          "topic": "操作系统中的写时复制 (Copy-on-Write) 机制",
+          "activation": 0.5769
+        },
+        {
+          "topic": "数据库事务隔离级别与幻读问题",
+          "activation": 0.4572
+        },
+        {
+          "topic": "eBPF 在云原生网络观测中的应用",
+          "activation": 0.6646
+        },
+        {
+          "topic": "Go 语言 GMP 调度模型与抢占式调度",
+          "activation": 0.5636
+        },
+        {
+          "topic": "Redis 的持久化机制 AOF 与 RDB 的权衡",
+          "activation": 0.3946
+        },
+        {
+          "topic": "Kubernetes 的 Informer 机制与 List-Watch",
+          "activation": 0.5333
+        },
+        {
+          "topic": "Java 虚拟机 CMS 与 G1 垃圾回收器的区别",
+          "activation": 0.3548
+        },
+        {
+          "topic": "HTTPS 握手过程中的密钥交换算法",
+          "activation": 0.4019
+        },
+        {
+          "topic": "Kafka 的零拷贝 (Zero-Copy) 技术原理",
+          "activation": 0.5296
+        },
+        {
+          "topic": "分布式锁的 Redlock 算法安全性分析",
+          "activation": 0.6049
+        },
+        {
+          "topic": "React 的 Fiber 架构与时间切片",
+          "activation": 0.6851
+        },
+        {
+          "topic": "TCP 的拥塞控制算法 BBR 原理",
+          "activation": 0.6642
+        },
+        {
+          "topic": "B+树与 LSM-Tree 在存储引擎中的读写性能对比",
+          "activation": 0.3345
+        },
+        {
+          "topic": "Docker 容器的 Namespace 与 Cgroups 隔离原理",
+          "activation": 0.4826
+        },
+        {
+          "topic": "Python GIL (全局解释器锁) 对多线程的影响",
+          "activation": 0.6791
+        },
+        {
+          "topic": "HTTP/2 与 HTTP/3 (QUIC) 的多路复用差异",
+          "activation": 0.3868
+        },
+        {
+          "topic": "神经网络中的梯度消失与梯度爆炸问题",
+          "activation": 0.4357
+        },
+        {
+          "topic": "Bloom Filter 布隆过滤器的误判率数学推导",
+          "activation": 0.3987
+        },
+        {
+          "topic": "一致性哈希算法在分布式缓存中的应用",
+          "activation": 0.4648
+        },
+        {
+          "topic": "MySQL InnoDB 的 MVCC 实现原理",
+          "activation": 0.5439
+        },
+        {
+          "topic": "Linux 内核态与用户态的切换开销",
+          "activation": 0.4236
+        },
+        {
+          "topic": "Git 的底层数据结构 (Merkle DAG)",
+          "activation": 0.6053
+        },
+        {
+          "topic": "Elasticsearch 的倒排索引压缩算法",
+          "activation": 0.5854
+        },
+        {
+          "topic": "Nginx 的反向代理与负载均衡算法",
+          "activation": 0.5696
+        },
+        {
+          "topic": "Protobuf 与 JSON 的序列化性能对比",
+          "activation": 0.3608
+        },
+        {
+          "topic": "CDN 的边缘缓存与回源策略",
+          "activation": 0.6841
+        },
+        {
+          "topic": "OAuth 2.0 授权码模式的安全性",
+          "activation": 0.5171
+        },
+        {
+          "topic": "DDoS 攻击的 SYN Flood 防御机制",
+          "activation": 0.5653
+        },
+        {
+          "topic": "WebAssembly (Wasm) 的沙箱安全模型",
+          "activation": 0.8368
+        },
+        {
+          "topic": "Rust 语言的所有权与借用检查器",
+          "activation": 0.6437
+        },
+        {
+          "topic": "CAP 定理中 P (分区容错性) 的不可妥协性",
+          "activation": 0.5818
+        },
+        {
+          "topic": "ClickHouse 的列式存储与向量化执行",
+          "activation": 0.6797
+        },
+        {
+          "topic": "Prometheus 的时序数据库压缩算法 (Gorilla)",
+          "activation": 0.6705
+        },
+        {
+          "topic": "Hadoop MapReduce 的 Shuffle 过程详解",
+          "activation": 0.448
+        },
+        {
+          "topic": "Zookeeper 的 ZAB 协议与 Paxos 的区别",
+          "activation": 0.1799
+        },
+        {
+          "topic": "Service Mesh 中的 Sidecar 模式网络延迟分析",
+          "activation": 0.4264
+        },
+        {
+          "topic": "GraphQL 与 RESTful API 的 N+1 问题",
+          "activation": 0.2763
+        },
+        {
+          "topic": "Vue.js 的响应式原理与依赖收集",
+          "activation": 0.5451
+        },
+        {
+          "topic": "MongoDB 的分片集群 Balancer 机制",
+          "activation": 0.5639
+        },
+        {
+          "topic": "RabbitMQ 的死信队列与延迟消息实现",
+          "activation": 0.4778
+        },
+        {
+          "topic": "Ceph 分布式存储的 CRUSH 算法",
+          "activation": 0.6213
+        },
+        {
+          "topic": "Spark RDD 的宽依赖与窄依赖划分",
+          "activation": 0.355
+        },
+        {
+          "topic": "Flink 的反压机制 (Backpressure) 原理",
+          "activation": 0.6062
+        },
+        {
+          "topic": "PostgreSQL 的物理复制与逻辑复制",
+          "activation": 0.6025
+        },
+        {
+          "topic": "DNS 的递归查询与迭代查询过程",
+          "activation": 0.4845
+        },
+        {
+          "topic": "ARP 协议欺骗与防御",
+          "activation": 0.7505
+        },
+        {
+          "topic": "CSRF 跨站请求伪造的 Token 防御",
+          "activation": 0.5648
+        },
+        {
+          "topic": "SQL 注入的盲注原理",
+          "activation": 0.6127
+        }
+      ]
+    }
+  }
+}

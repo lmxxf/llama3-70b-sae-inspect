@@ -70,7 +70,7 @@ def eval_answer(question, answer, max_retries=3):
                 max_tokens=500
             )
 
-            content = response.json()["choices"][0]["message"]["content"]
+            content = response.choices[0].message.content
 
             # 提取 JSON
             if "```json" in content:
