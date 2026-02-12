@@ -1,0 +1,6902 @@
+[
+  {
+    "topic": "Leader Election in Raft Consensus Algorithm",
+    "eid": {
+      "standard": {
+        "eid": 8.5654,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9609,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.3613,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8853,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.146,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.7286,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7786,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6379,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5654,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5767,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0624,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.1178,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3517,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 17.9925,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9374,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.6144,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Frequency Domain Properties of Positional Encoding in Transformer Architecture",
+    "eid": {
+      "standard": {
+        "eid": 9.1101,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.7744,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 17.0767,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.5632,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.8995,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.3318,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.376,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.3541,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 9.1101,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.2765,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.6982,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.7335,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 16.0624,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.8353,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.704,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 19.0054,
+        "seq_len": 82
+      }
+    }
+  },
+  {
+    "topic": "Copy-on-Write Mechanism in Operating Systems",
+    "eid": {
+      "standard": {
+        "eid": 8.59,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.0638,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.4684,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.0329,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.1725,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.6668,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.7123,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.7626,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.59,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.6771,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.1271,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.2527,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.457,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.1483,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.1025,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.5729,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Database Transaction Isolation Levels and Phantom Read Problem",
+    "eid": {
+      "standard": {
+        "eid": 8.8422,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.3369,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.7455,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.2744,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.4387,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.9483,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 16.0196,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.9983,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.8422,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.9336,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.3517,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.4562,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.7074,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.4619,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.2551,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.7049,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "eBPF Applications in Cloud-Native Network Observability",
+    "eid": {
+      "standard": {
+        "eid": 9.2856,
+        "seq_len": 52
+      },
+      "teacher": {
+        "eid": 16.9479,
+        "seq_len": 76
+      },
+      "socratic": {
+        "eid": 17.2833,
+        "seq_len": 78
+      },
+      "child": {
+        "eid": 16.7568,
+        "seq_len": 76
+      },
+      "interviewer": {
+        "eid": 18.1083,
+        "seq_len": 80
+      },
+      "debugger": {
+        "eid": 19.6957,
+        "seq_len": 83
+      },
+      "critic": {
+        "eid": 16.5352,
+        "seq_len": 75
+      },
+      "eli5": {
+        "eid": 15.5751,
+        "seq_len": 72
+      },
+      "assistant": {
+        "eid": 9.2856,
+        "seq_len": 52
+      },
+      "villain": {
+        "eid": 16.4984,
+        "seq_len": 75
+      },
+      "drunk": {
+        "eid": 13.9268,
+        "seq_len": 67
+      },
+      "poet": {
+        "eid": 13.9294,
+        "seq_len": 68
+      },
+      "conspiracy": {
+        "eid": 16.3488,
+        "seq_len": 74
+      },
+      "novice": {
+        "eid": 19.0925,
+        "seq_len": 81
+      },
+      "expert": {
+        "eid": 18.9079,
+        "seq_len": 81
+      },
+      "guru": {
+        "eid": 18.3651,
+        "seq_len": 80
+      }
+    }
+  },
+  {
+    "topic": "Go Language GMP Scheduling Model and Preemptive Scheduling",
+    "eid": {
+      "standard": {
+        "eid": 9.7092,
+        "seq_len": 54
+      },
+      "teacher": {
+        "eid": 17.4624,
+        "seq_len": 78
+      },
+      "socratic": {
+        "eid": 17.9094,
+        "seq_len": 80
+      },
+      "child": {
+        "eid": 17.4436,
+        "seq_len": 78
+      },
+      "interviewer": {
+        "eid": 18.6757,
+        "seq_len": 82
+      },
+      "debugger": {
+        "eid": 20.25,
+        "seq_len": 85
+      },
+      "critic": {
+        "eid": 17.2335,
+        "seq_len": 77
+      },
+      "eli5": {
+        "eid": 16.1513,
+        "seq_len": 74
+      },
+      "assistant": {
+        "eid": 9.7092,
+        "seq_len": 54
+      },
+      "villain": {
+        "eid": 17.0381,
+        "seq_len": 77
+      },
+      "drunk": {
+        "eid": 14.4299,
+        "seq_len": 69
+      },
+      "poet": {
+        "eid": 14.4719,
+        "seq_len": 70
+      },
+      "conspiracy": {
+        "eid": 16.9178,
+        "seq_len": 76
+      },
+      "novice": {
+        "eid": 19.6418,
+        "seq_len": 83
+      },
+      "expert": {
+        "eid": 19.5455,
+        "seq_len": 83
+      },
+      "guru": {
+        "eid": 18.8234,
+        "seq_len": 82
+      }
+    }
+  },
+  {
+    "topic": "Redis Persistence: AOF vs RDB Trade-offs",
+    "eid": {
+      "standard": {
+        "eid": 9.0333,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.5929,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 16.9912,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.3483,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.764,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.3582,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.1348,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.1597,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 9.0333,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.1341,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.5911,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.6072,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 15.9701,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.6759,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.5753,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 18.0325,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "Kubernetes Informer Mechanism and List-Watch Pattern",
+    "eid": {
+      "standard": {
+        "eid": 9.0076,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.5905,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 17.0613,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.544,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.8807,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.2543,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.454,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.3194,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 9.0076,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.1825,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.5528,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.683,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 15.9066,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.7647,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.6229,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 18.0758,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "CMS vs G1 Garbage Collector in Java Virtual Machine",
+    "eid": {
+      "standard": {
+        "eid": 9.243,
+        "seq_len": 52
+      },
+      "teacher": {
+        "eid": 16.9224,
+        "seq_len": 76
+      },
+      "socratic": {
+        "eid": 17.3417,
+        "seq_len": 78
+      },
+      "child": {
+        "eid": 16.8337,
+        "seq_len": 76
+      },
+      "interviewer": {
+        "eid": 18.0774,
+        "seq_len": 80
+      },
+      "debugger": {
+        "eid": 19.5443,
+        "seq_len": 83
+      },
+      "critic": {
+        "eid": 16.6902,
+        "seq_len": 75
+      },
+      "eli5": {
+        "eid": 15.5706,
+        "seq_len": 72
+      },
+      "assistant": {
+        "eid": 9.243,
+        "seq_len": 52
+      },
+      "villain": {
+        "eid": 16.5387,
+        "seq_len": 75
+      },
+      "drunk": {
+        "eid": 13.879,
+        "seq_len": 67
+      },
+      "poet": {
+        "eid": 13.9605,
+        "seq_len": 68
+      },
+      "conspiracy": {
+        "eid": 16.2877,
+        "seq_len": 74
+      },
+      "novice": {
+        "eid": 19.0718,
+        "seq_len": 81
+      },
+      "expert": {
+        "eid": 18.9363,
+        "seq_len": 81
+      },
+      "guru": {
+        "eid": 18.7076,
+        "seq_len": 81
+      }
+    }
+  },
+  {
+    "topic": "Key Exchange Algorithms in HTTPS Handshake",
+    "eid": {
+      "standard": {
+        "eid": 8.283,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6381,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0114,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4711,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7534,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2434,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.2378,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2769,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.283,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.1537,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6923,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7186,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9983,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6909,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5339,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0176,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Zero-Copy Technology in Kafka",
+    "eid": {
+      "standard": {
+        "eid": 8.0639,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.3252,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.7069,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.2324,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.5392,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 18.0459,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 15.1762,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 14.0261,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.0639,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.9256,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.4264,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.4923,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.7422,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.3876,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.2812,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.8094,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "Safety Analysis of Redlock Algorithm for Distributed Locks",
+    "eid": {
+      "standard": {
+        "eid": 9.2364,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.9264,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 17.1715,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.6633,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.9312,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.5707,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.4736,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.4909,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 9.2364,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.42,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.8395,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.862,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 16.186,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.8697,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.7227,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 18.1988,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "React Fiber Architecture and Time Slicing",
+    "eid": {
+      "standard": {
+        "eid": 8.1969,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.5434,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0335,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4169,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.797,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2227,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.2482,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2028,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.1969,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2138,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6028,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7087,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9604,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6092,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5602,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9406,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "BBR Congestion Control Algorithm in TCP",
+    "eid": {
+      "standard": {
+        "eid": 8.4119,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.876,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2774,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8219,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 16.9451,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.4237,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.6218,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.5802,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.4119,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.521,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.9555,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0443,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.2329,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 17.9192,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.7771,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.6785,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "B+Tree vs LSM-Tree: Read/Write Performance in Storage Engines",
+    "eid": {
+      "standard": {
+        "eid": 10.1092,
+        "seq_len": 56
+      },
+      "teacher": {
+        "eid": 18.1034,
+        "seq_len": 80
+      },
+      "socratic": {
+        "eid": 18.4441,
+        "seq_len": 82
+      },
+      "child": {
+        "eid": 18.0017,
+        "seq_len": 80
+      },
+      "interviewer": {
+        "eid": 19.2815,
+        "seq_len": 84
+      },
+      "debugger": {
+        "eid": 20.9571,
+        "seq_len": 87
+      },
+      "critic": {
+        "eid": 17.5796,
+        "seq_len": 79
+      },
+      "eli5": {
+        "eid": 16.6865,
+        "seq_len": 76
+      },
+      "assistant": {
+        "eid": 10.1092,
+        "seq_len": 56
+      },
+      "villain": {
+        "eid": 17.6076,
+        "seq_len": 79
+      },
+      "drunk": {
+        "eid": 14.9288,
+        "seq_len": 71
+      },
+      "poet": {
+        "eid": 14.9982,
+        "seq_len": 72
+      },
+      "conspiracy": {
+        "eid": 17.5894,
+        "seq_len": 78
+      },
+      "novice": {
+        "eid": 20.2903,
+        "seq_len": 85
+      },
+      "expert": {
+        "eid": 20.2078,
+        "seq_len": 85
+      },
+      "guru": {
+        "eid": 19.545,
+        "seq_len": 84
+      }
+    }
+  },
+  {
+    "topic": "Docker Container Isolation: Namespace and Cgroups",
+    "eid": {
+      "standard": {
+        "eid": 8.6959,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.1794,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.5267,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.0814,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.3837,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.839,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.798,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.797,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.6959,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.7245,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.1356,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.2754,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.5629,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.3113,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.1786,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 18.6057,
+        "seq_len": 81
+      }
+    }
+  },
+  {
+    "topic": "Python GIL Impact on Multithreading",
+    "eid": {
+      "standard": {
+        "eid": 8.5333,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9662,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2251,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.7236,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.143,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.5336,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.6694,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6446,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5333,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.4834,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.9108,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0341,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3046,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0228,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9126,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 18.419,
+        "seq_len": 80
+      }
+    }
+  },
+  {
+    "topic": "HTTP/2 vs HTTP/3 (QUIC) Multiplexing Differences",
+    "eid": {
+      "standard": {
+        "eid": 10.1892,
+        "seq_len": 56
+      },
+      "teacher": {
+        "eid": 18.1107,
+        "seq_len": 80
+      },
+      "socratic": {
+        "eid": 18.3998,
+        "seq_len": 82
+      },
+      "child": {
+        "eid": 17.7521,
+        "seq_len": 80
+      },
+      "interviewer": {
+        "eid": 19.2994,
+        "seq_len": 84
+      },
+      "debugger": {
+        "eid": 20.7695,
+        "seq_len": 87
+      },
+      "critic": {
+        "eid": 17.7948,
+        "seq_len": 79
+      },
+      "eli5": {
+        "eid": 16.6344,
+        "seq_len": 76
+      },
+      "assistant": {
+        "eid": 10.1892,
+        "seq_len": 56
+      },
+      "villain": {
+        "eid": 17.6354,
+        "seq_len": 79
+      },
+      "drunk": {
+        "eid": 14.9026,
+        "seq_len": 71
+      },
+      "poet": {
+        "eid": 14.94,
+        "seq_len": 72
+      },
+      "conspiracy": {
+        "eid": 17.3703,
+        "seq_len": 78
+      },
+      "novice": {
+        "eid": 20.3483,
+        "seq_len": 85
+      },
+      "expert": {
+        "eid": 20.1668,
+        "seq_len": 85
+      },
+      "guru": {
+        "eid": 19.5613,
+        "seq_len": 84
+      }
+    }
+  },
+  {
+    "topic": "Vanishing Gradient and Exploding Gradient in Neural Networks",
+    "eid": {
+      "standard": {
+        "eid": 9.0144,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.5764,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 16.9205,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.4358,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.7444,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.1141,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.3052,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.2061,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 9.0144,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.1378,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.6053,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.6746,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 15.9303,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.7282,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.6085,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 18.0369,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "False Positive Rate Derivation of Bloom Filter",
+    "eid": {
+      "standard": {
+        "eid": 8.5639,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 16.0126,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.3192,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8949,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.1137,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.6024,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.6757,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6726,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5639,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.594,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0305,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.068,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.347,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0351,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.886,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.3094,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Consistent Hashing in Distributed Caching",
+    "eid": {
+      "standard": {
+        "eid": 8.5482,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9777,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.314,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.7552,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.2064,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.6773,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7316,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6105,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5482,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5672,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0156,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0549,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3528,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0701,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9106,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.4322,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "MVCC Implementation in MySQL InnoDB",
+    "eid": {
+      "standard": {
+        "eid": 8.2548,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6188,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0262,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.5438,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7641,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.1878,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3656,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3298,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2548,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.1992,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7082,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7881,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9348,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6673,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5965,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.647,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Kernel-User Mode Switching Overhead in Linux",
+    "eid": {
+      "standard": {
+        "eid": 8.9761,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.5957,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 16.9771,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.3776,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.6252,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.2123,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.166,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.2389,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 8.9761,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.1655,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.5614,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.6983,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 15.9559,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.7255,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.5708,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 19.0463,
+        "seq_len": 82
+      }
+    }
+  },
+  {
+    "topic": "Git Internal Data Structure (Merkle DAG)",
+    "eid": {
+      "standard": {
+        "eid": 9.0359,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.6814,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 17.018,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.5407,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.785,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.3202,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 15.9872,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 15.241,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 9.0359,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.2148,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.6295,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.6826,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 15.9634,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 19.0331,
+        "seq_len": 81
+      },
+      "expert": {
+        "eid": 18.6604,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 18.1487,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "Inverted Index Compression in Elasticsearch",
+    "eid": {
+      "standard": {
+        "eid": 8.094,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.3708,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.7619,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.2703,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.4963,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 18.0391,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 15.0708,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 14.0871,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.094,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.9255,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.5139,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.5441,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.8067,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.4451,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.2272,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.7823,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "Nginx Reverse Proxy and Load Balancing Algorithms",
+    "eid": {
+      "standard": {
+        "eid": 8.971,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.55,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 16.9174,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.3778,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.6651,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.2461,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.1554,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.201,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 8.971,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.1221,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.5169,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.6174,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 15.8305,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.7216,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.5794,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 18.0263,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "Protobuf vs JSON Serialization Performance",
+    "eid": {
+      "standard": {
+        "eid": 8.0248,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.231,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.614,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.069,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.3941,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.7616,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.7652,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.9836,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.0248,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.8353,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3266,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.424,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.5607,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.4109,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.1763,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.6528,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "CDN Edge Caching and Origin Fetch Strategy",
+    "eid": {
+      "standard": {
+        "eid": 8.5394,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9304,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.3714,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8755,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.2345,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.5788,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7233,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.5981,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5394,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5093,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.9541,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0658,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.2682,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.1112,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9201,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.3902,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "OAuth 2.0 Authorization Code Flow Security",
+    "eid": {
+      "standard": {
+        "eid": 8.5807,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.0656,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.4033,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 15.8439,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.2754,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.7175,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.4937,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.6644,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.5807,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.6087,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.0642,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.0937,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.3369,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.2084,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.0903,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.4184,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "SYN Flood DDoS Attack Defense Mechanisms",
+    "eid": {
+      "standard": {
+        "eid": 8.5817,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.0043,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.321,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 15.8238,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.1224,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.7031,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.6198,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.7396,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.5817,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.6405,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.0761,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.1523,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.3931,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.1498,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.0313,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.5063,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "WebAssembly (Wasm) Sandbox Security Model",
+    "eid": {
+      "standard": {
+        "eid": 8.7506,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.2728,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.4986,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.0293,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.4179,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.9351,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.6833,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.831,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.7506,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.764,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.1977,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.2349,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.5339,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.3344,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.2378,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.6613,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Ownership and Borrow Checker in Rust",
+    "eid": {
+      "standard": {
+        "eid": 8.0422,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.3205,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.7524,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.2242,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.4503,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.9464,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 15.1124,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 14.0532,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.0422,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.9466,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.4589,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.5652,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.7336,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.2987,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.2566,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.6775,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "CAP Theorem: The Non-Negotiability of Partition Tolerance",
+    "eid": {
+      "standard": {
+        "eid": 9.7795,
+        "seq_len": 54
+      },
+      "teacher": {
+        "eid": 17.4915,
+        "seq_len": 78
+      },
+      "socratic": {
+        "eid": 17.8106,
+        "seq_len": 80
+      },
+      "child": {
+        "eid": 17.5937,
+        "seq_len": 78
+      },
+      "interviewer": {
+        "eid": 18.6027,
+        "seq_len": 82
+      },
+      "debugger": {
+        "eid": 20.4332,
+        "seq_len": 85
+      },
+      "critic": {
+        "eid": 17.2432,
+        "seq_len": 77
+      },
+      "eli5": {
+        "eid": 16.2445,
+        "seq_len": 74
+      },
+      "assistant": {
+        "eid": 9.7795,
+        "seq_len": 54
+      },
+      "villain": {
+        "eid": 17.2151,
+        "seq_len": 77
+      },
+      "drunk": {
+        "eid": 14.5409,
+        "seq_len": 69
+      },
+      "poet": {
+        "eid": 14.5495,
+        "seq_len": 70
+      },
+      "conspiracy": {
+        "eid": 16.9249,
+        "seq_len": 76
+      },
+      "novice": {
+        "eid": 19.6367,
+        "seq_len": 83
+      },
+      "expert": {
+        "eid": 19.4829,
+        "seq_len": 83
+      },
+      "guru": {
+        "eid": 18.8389,
+        "seq_len": 82
+      }
+    }
+  },
+  {
+    "topic": "ClickHouse Columnar Storage and Vectorized Execution",
+    "eid": {
+      "standard": {
+        "eid": 8.7669,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.3168,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.6579,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.1755,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.628,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 19.0093,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.918,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.9715,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.7669,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.8541,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.2692,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.3755,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.6215,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.3914,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.2437,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.7294,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Prometheus Time Series Compression (Gorilla Algorithm)",
+    "eid": {
+      "standard": {
+        "eid": 9.1169,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.6752,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 17.0639,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.5681,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.8254,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.296,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.0476,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 15.3202,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 9.1169,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.3082,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.709,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.8135,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 16.0945,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.9926,
+        "seq_len": 81
+      },
+      "expert": {
+        "eid": 18.6241,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 18.0598,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "Hadoop MapReduce Shuffle Process Explained",
+    "eid": {
+      "standard": {
+        "eid": 8.5134,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9486,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2238,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.5978,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 16.9965,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.3783,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.3595,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.5286,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5134,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5349,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.9461,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0199,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.2278,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 17.9682,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.7767,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.2901,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "ZAB Protocol vs Paxos in Zookeeper",
+    "eid": {
+      "standard": {
+        "eid": 8.7938,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.2905,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.7009,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.2094,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.4486,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.9955,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 16.0315,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 15.0404,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.7938,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.9393,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.3278,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.4295,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.6437,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.4285,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.2591,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.9846,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "Sidecar Pattern Network Latency in Service Mesh",
+    "eid": {
+      "standard": {
+        "eid": 8.8796,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.3837,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.8175,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.3985,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.5378,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 19.0558,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 16.1492,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 15.1006,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.8796,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.9839,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.4322,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.4685,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.7595,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.4977,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.3052,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.7952,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "GraphQL vs RESTful API: The N+1 Problem",
+    "eid": {
+      "standard": {
+        "eid": 9.3323,
+        "seq_len": 52
+      },
+      "teacher": {
+        "eid": 16.9842,
+        "seq_len": 76
+      },
+      "socratic": {
+        "eid": 17.3543,
+        "seq_len": 78
+      },
+      "child": {
+        "eid": 16.7334,
+        "seq_len": 76
+      },
+      "interviewer": {
+        "eid": 18.1833,
+        "seq_len": 80
+      },
+      "debugger": {
+        "eid": 19.6661,
+        "seq_len": 83
+      },
+      "critic": {
+        "eid": 16.4947,
+        "seq_len": 75
+      },
+      "eli5": {
+        "eid": 15.5498,
+        "seq_len": 72
+      },
+      "assistant": {
+        "eid": 9.3323,
+        "seq_len": 52
+      },
+      "villain": {
+        "eid": 16.5586,
+        "seq_len": 75
+      },
+      "drunk": {
+        "eid": 13.9173,
+        "seq_len": 67
+      },
+      "poet": {
+        "eid": 13.9803,
+        "seq_len": 68
+      },
+      "conspiracy": {
+        "eid": 16.309,
+        "seq_len": 74
+      },
+      "novice": {
+        "eid": 18.985,
+        "seq_len": 81
+      },
+      "expert": {
+        "eid": 18.9963,
+        "seq_len": 81
+      },
+      "guru": {
+        "eid": 18.3294,
+        "seq_len": 80
+      }
+    }
+  },
+  {
+    "topic": "Vue.js Reactivity System and Dependency Collection",
+    "eid": {
+      "standard": {
+        "eid": 8.5605,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9992,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.3874,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8166,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.2279,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.6322,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7414,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.5927,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5605,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.4958,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.9753,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0587,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3435,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0505,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9403,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.3476,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "MongoDB Sharded Cluster Balancer Mechanism",
+    "eid": {
+      "standard": {
+        "eid": 8.5852,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 16.0174,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.3051,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8577,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.1566,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.4999,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.629,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6619,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5852,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5815,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0571,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.106,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3106,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0431,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9995,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.4573,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "RabbitMQ Dead Letter Queue and Delayed Messages",
+    "eid": {
+      "standard": {
+        "eid": 8.8408,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.344,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.7385,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.1848,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.567,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 19.0678,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 16.0742,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 15.0229,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.8408,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.9355,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.302,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.4457,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.7518,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.4658,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.3288,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.7798,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "CRUSH Algorithm in Ceph Distributed Storage",
+    "eid": {
+      "standard": {
+        "eid": 8.5312,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9599,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.3784,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8801,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 16.9918,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.5624,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7041,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.658,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5312,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.501,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0222,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0322,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3713,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 17.9995,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9102,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.4548,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Wide vs Narrow Dependencies in Spark RDD",
+    "eid": {
+      "standard": {
+        "eid": 8.3553,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.686,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0934,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.6118,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.9219,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2905,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3922,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3665,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3553,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2902,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7739,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.8231,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.0838,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.7487,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.577,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0727,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Backpressure Mechanism in Flink",
+    "eid": {
+      "standard": {
+        "eid": 8.3578,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6981,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0864,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.6292,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.8652,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.3474,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.496,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3856,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3578,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2658,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.82,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.8532,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.0812,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.8196,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.6539,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.1093,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Physical vs Logical Replication in PostgreSQL",
+    "eid": {
+      "standard": {
+        "eid": 8.302,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6358,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0275,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.5949,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7971,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.218,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3388,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3815,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.302,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2523,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7642,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.8106,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.0569,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.7394,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5601,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.1372,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Recursive vs Iterative DNS Query",
+    "eid": {
+      "standard": {
+        "eid": 8.0714,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.2848,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.6535,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.108,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.52,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.815,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.8789,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.9812,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.0714,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.8603,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3649,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.4471,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.6215,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.4162,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.205,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.6371,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "ARP Spoofing Attack and Defense",
+    "eid": {
+      "standard": {
+        "eid": 8.1871,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.4999,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.8822,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.3546,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.6345,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.1149,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.2086,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2112,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.1871,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.0845,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.598,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.6757,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9256,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6563,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.4707,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9431,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "CSRF Token Defense Against Cross-Site Request Forgery",
+    "eid": {
+      "standard": {
+        "eid": 8.944,
+        "seq_len": 51
+      },
+      "teacher": {
+        "eid": 16.514,
+        "seq_len": 75
+      },
+      "socratic": {
+        "eid": 16.8213,
+        "seq_len": 77
+      },
+      "child": {
+        "eid": 16.2613,
+        "seq_len": 75
+      },
+      "interviewer": {
+        "eid": 17.5989,
+        "seq_len": 79
+      },
+      "debugger": {
+        "eid": 19.275,
+        "seq_len": 82
+      },
+      "critic": {
+        "eid": 16.1051,
+        "seq_len": 74
+      },
+      "eli5": {
+        "eid": 15.1722,
+        "seq_len": 71
+      },
+      "assistant": {
+        "eid": 8.944,
+        "seq_len": 51
+      },
+      "villain": {
+        "eid": 16.0848,
+        "seq_len": 74
+      },
+      "drunk": {
+        "eid": 13.4435,
+        "seq_len": 66
+      },
+      "poet": {
+        "eid": 13.5715,
+        "seq_len": 67
+      },
+      "conspiracy": {
+        "eid": 15.8784,
+        "seq_len": 73
+      },
+      "novice": {
+        "eid": 18.704,
+        "seq_len": 80
+      },
+      "expert": {
+        "eid": 18.5275,
+        "seq_len": 80
+      },
+      "guru": {
+        "eid": 17.9508,
+        "seq_len": 79
+      }
+    }
+  },
+  {
+    "topic": "Blind SQL Injection Principles",
+    "eid": {
+      "standard": {
+        "eid": 7.6051,
+        "seq_len": 45
+      },
+      "teacher": {
+        "eid": 14.7001,
+        "seq_len": 69
+      },
+      "socratic": {
+        "eid": 14.9588,
+        "seq_len": 71
+      },
+      "child": {
+        "eid": 14.4235,
+        "seq_len": 69
+      },
+      "interviewer": {
+        "eid": 15.7377,
+        "seq_len": 73
+      },
+      "debugger": {
+        "eid": 17.1221,
+        "seq_len": 76
+      },
+      "critic": {
+        "eid": 14.1936,
+        "seq_len": 68
+      },
+      "eli5": {
+        "eid": 13.3736,
+        "seq_len": 65
+      },
+      "assistant": {
+        "eid": 7.6051,
+        "seq_len": 45
+      },
+      "villain": {
+        "eid": 14.2593,
+        "seq_len": 68
+      },
+      "drunk": {
+        "eid": 11.8102,
+        "seq_len": 60
+      },
+      "poet": {
+        "eid": 11.8858,
+        "seq_len": 61
+      },
+      "conspiracy": {
+        "eid": 14.0236,
+        "seq_len": 67
+      },
+      "novice": {
+        "eid": 16.7101,
+        "seq_len": 74
+      },
+      "expert": {
+        "eid": 16.5832,
+        "seq_len": 74
+      },
+      "guru": {
+        "eid": 15.9432,
+        "seq_len": 73
+      }
+    }
+  },
+  {
+    "topic": "TLS 1.3 Zero Round Trip Time Resumption",
+    "eid": {
+      "standard": {
+        "eid": 9.1678,
+        "seq_len": 52
+      },
+      "teacher": {
+        "eid": 16.8287,
+        "seq_len": 76
+      },
+      "socratic": {
+        "eid": 17.1962,
+        "seq_len": 78
+      },
+      "child": {
+        "eid": 16.5816,
+        "seq_len": 76
+      },
+      "interviewer": {
+        "eid": 18.105,
+        "seq_len": 80
+      },
+      "debugger": {
+        "eid": 19.4446,
+        "seq_len": 83
+      },
+      "critic": {
+        "eid": 16.2298,
+        "seq_len": 75
+      },
+      "eli5": {
+        "eid": 15.404,
+        "seq_len": 72
+      },
+      "assistant": {
+        "eid": 9.1678,
+        "seq_len": 52
+      },
+      "villain": {
+        "eid": 16.4104,
+        "seq_len": 75
+      },
+      "drunk": {
+        "eid": 13.7433,
+        "seq_len": 67
+      },
+      "poet": {
+        "eid": 13.7891,
+        "seq_len": 68
+      },
+      "conspiracy": {
+        "eid": 16.0782,
+        "seq_len": 74
+      },
+      "novice": {
+        "eid": 19.0398,
+        "seq_len": 81
+      },
+      "expert": {
+        "eid": 18.8916,
+        "seq_len": 81
+      },
+      "guru": {
+        "eid": 18.2314,
+        "seq_len": 80
+      }
+    }
+  },
+  {
+    "topic": "Undo Log vs Redo Log in Database Recovery",
+    "eid": {
+      "standard": {
+        "eid": 8.7254,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.2209,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.6011,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.12,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.4044,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.8312,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.8768,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.9254,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.7254,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.7929,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.2405,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.3674,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.5685,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.3478,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.1928,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.6848,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Etcd Lease Mechanism and TTL",
+    "eid": {
+      "standard": {
+        "eid": 8.2903,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6341,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0073,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.5234,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.829,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2838,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3853,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2917,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2903,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2102,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6974,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7744,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.006,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6989,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.575,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0482,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "gRPC Bidirectional Streaming Implementation",
+    "eid": {
+      "standard": {
+        "eid": 8.068,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.3092,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.6792,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.0852,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.574,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.9602,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.9957,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.9851,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.068,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.9081,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3863,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.4771,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.6572,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.3746,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.2406,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.7583,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "Linux epoll vs kqueue vs IOCP",
+    "eid": {
+      "standard": {
+        "eid": 8.4505,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.8507,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2464,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.62,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.0727,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.4818,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.6198,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.5005,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.4505,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.4411,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.8723,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0291,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.1882,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 17.9682,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.8447,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 18.351,
+        "seq_len": 80
+      }
+    }
+  },
+  {
+    "topic": "Memory Barrier and CPU Cache Coherence",
+    "eid": {
+      "standard": {
+        "eid": 8.3028,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6257,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.042,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4901,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.831,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.1684,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3427,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3289,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3028,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2195,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.691,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.856,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.0577,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.737,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5834,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0127,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "JIT Compilation in V8 JavaScript Engine",
+    "eid": {
+      "standard": {
+        "eid": 8.2462,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.5807,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0195,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4194,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7435,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2048,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.287,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3282,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2462,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.206,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6609,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7781,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9443,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6286,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5132,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.2024,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Lock-Free Data Structures and CAS Operations",
+    "eid": {
+      "standard": {
+        "eid": 8.2568,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.5935,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.8946,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4669,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.627,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.0981,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.2355,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2182,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2568,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.1584,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6077,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7002,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.8509,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.5635,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.517,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9513,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Consistent Read in Distributed Databases",
+    "eid": {
+      "standard": {
+        "eid": 8.3045,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6516,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.9908,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.5968,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7916,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2759,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.4047,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3132,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3045,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.1921,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7391,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7686,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.0087,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.76,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5887,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0653,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Container Runtime Interface (CRI) in Kubernetes",
+    "eid": {
+      "standard": {
+        "eid": 8.77,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.3281,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.5817,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.1809,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.4494,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.9423,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 16.0499,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.9009,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.77,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.868,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.2603,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.3659,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.6741,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.3375,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.2579,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.6922,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Blue-Green Deployment vs Canary Release",
+    "eid": {
+      "standard": {
+        "eid": 8.287,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6331,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.991,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4982,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.8008,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.1977,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.243,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3243,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.287,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2139,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6961,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7924,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9044,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.749,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5252,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0308,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Circuit Breaker Pattern in Microservices",
+    "eid": {
+      "standard": {
+        "eid": 8.2665,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6161,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.9458,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.5934,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.742,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2459,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.4161,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3664,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2665,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2367,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7219,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.8218,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9343,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.7151,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5402,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0137,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Event Sourcing and CQRS Architecture",
+    "eid": {
+      "standard": {
+        "eid": 8.2976,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6368,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0625,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4507,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.8152,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2401,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.35,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3094,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2976,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2511,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6795,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7932,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9386,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6942,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5222,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0218,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Write-Ahead Logging in Database Systems",
+    "eid": {
+      "standard": {
+        "eid": 8.2683,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6238,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.8762,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.3613,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7946,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2064,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.1601,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2033,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2683,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.1024,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6292,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.6448,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.862,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6706,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.4922,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9567,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Raft Log Compaction and Snapshot",
+    "eid": {
+      "standard": {
+        "eid": 8.3005,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.642,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.1041,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.6878,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.866,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.3787,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3973,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.4249,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3005,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.3743,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7792,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.8765,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.241,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.7499,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5657,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.2581,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "TCP Fast Open and Connection Optimization",
+    "eid": {
+      "standard": {
+        "eid": 8.0263,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.2945,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.6524,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.1755,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.45,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.8077,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.9136,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 14.0106,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.0263,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.8872,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3525,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.4516,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.7419,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.3586,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.1872,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.8815,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "IPv6 Neighbor Discovery Protocol",
+    "eid": {
+      "standard": {
+        "eid": 7.7666,
+        "seq_len": 46
+      },
+      "teacher": {
+        "eid": 14.9314,
+        "seq_len": 70
+      },
+      "socratic": {
+        "eid": 15.2186,
+        "seq_len": 72
+      },
+      "child": {
+        "eid": 14.6815,
+        "seq_len": 70
+      },
+      "interviewer": {
+        "eid": 16.072,
+        "seq_len": 74
+      },
+      "debugger": {
+        "eid": 17.4096,
+        "seq_len": 77
+      },
+      "critic": {
+        "eid": 14.3756,
+        "seq_len": 69
+      },
+      "eli5": {
+        "eid": 13.5919,
+        "seq_len": 66
+      },
+      "assistant": {
+        "eid": 7.7666,
+        "seq_len": 46
+      },
+      "villain": {
+        "eid": 14.5073,
+        "seq_len": 69
+      },
+      "drunk": {
+        "eid": 12.0329,
+        "seq_len": 61
+      },
+      "poet": {
+        "eid": 12.0956,
+        "seq_len": 62
+      },
+      "conspiracy": {
+        "eid": 14.2705,
+        "seq_len": 68
+      },
+      "novice": {
+        "eid": 16.9604,
+        "seq_len": 75
+      },
+      "expert": {
+        "eid": 16.8184,
+        "seq_len": 75
+      },
+      "guru": {
+        "eid": 16.2495,
+        "seq_len": 74
+      }
+    }
+  },
+  {
+    "topic": "BGP Route Hijacking and RPKI",
+    "eid": {
+      "standard": {
+        "eid": 8.7905,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.3285,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.6992,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.1826,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.4501,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 19.0229,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.937,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 15.0228,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.7905,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.8636,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.2958,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.3988,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.6737,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.4553,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.2858,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.7061,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Kubernetes Pod Scheduling and Affinity Rules",
+    "eid": {
+      "standard": {
+        "eid": 8.5301,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.978,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2249,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.7663,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.118,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.4817,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7123,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.5427,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5301,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5073,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.9396,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.004,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.2334,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0667,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9187,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.2817,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Istio Traffic Management and Virtual Services",
+    "eid": {
+      "standard": {
+        "eid": 8.2457,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6182,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.961,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4921,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7777,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.175,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.2474,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2905,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2457,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2031,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.664,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7387,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.8837,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6715,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5232,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9535,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "OpenTelemetry Distributed Tracing",
+    "eid": {
+      "standard": {
+        "eid": 8.0768,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.3315,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.6717,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.156,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.4249,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.9304,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.7927,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.9823,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.0768,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.8989,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3777,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.4742,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.5567,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.342,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.1841,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.6278,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "Chaos Engineering and Fault Injection",
+    "eid": {
+      "standard": {
+        "eid": 7.8484,
+        "seq_len": 46
+      },
+      "teacher": {
+        "eid": 15.0513,
+        "seq_len": 70
+      },
+      "socratic": {
+        "eid": 15.3739,
+        "seq_len": 72
+      },
+      "child": {
+        "eid": 14.894,
+        "seq_len": 70
+      },
+      "interviewer": {
+        "eid": 16.1209,
+        "seq_len": 74
+      },
+      "debugger": {
+        "eid": 17.6213,
+        "seq_len": 77
+      },
+      "critic": {
+        "eid": 14.8025,
+        "seq_len": 69
+      },
+      "eli5": {
+        "eid": 13.7493,
+        "seq_len": 66
+      },
+      "assistant": {
+        "eid": 7.8484,
+        "seq_len": 46
+      },
+      "villain": {
+        "eid": 14.6387,
+        "seq_len": 69
+      },
+      "drunk": {
+        "eid": 12.1309,
+        "seq_len": 61
+      },
+      "poet": {
+        "eid": 12.2214,
+        "seq_len": 62
+      },
+      "conspiracy": {
+        "eid": 14.3666,
+        "seq_len": 68
+      },
+      "novice": {
+        "eid": 17.0586,
+        "seq_len": 75
+      },
+      "expert": {
+        "eid": 16.8888,
+        "seq_len": 75
+      },
+      "guru": {
+        "eid": 16.3251,
+        "seq_len": 74
+      }
+    }
+  },
+  {
+    "topic": "Database Connection Pooling Strategies",
+    "eid": {
+      "standard": {
+        "eid": 7.7829,
+        "seq_len": 46
+      },
+      "teacher": {
+        "eid": 14.9765,
+        "seq_len": 70
+      },
+      "socratic": {
+        "eid": 15.3103,
+        "seq_len": 72
+      },
+      "child": {
+        "eid": 14.7289,
+        "seq_len": 70
+      },
+      "interviewer": {
+        "eid": 16.0411,
+        "seq_len": 74
+      },
+      "debugger": {
+        "eid": 17.4087,
+        "seq_len": 77
+      },
+      "critic": {
+        "eid": 14.6408,
+        "seq_len": 69
+      },
+      "eli5": {
+        "eid": 13.6124,
+        "seq_len": 66
+      },
+      "assistant": {
+        "eid": 7.7829,
+        "seq_len": 46
+      },
+      "villain": {
+        "eid": 14.5617,
+        "seq_len": 69
+      },
+      "drunk": {
+        "eid": 12.0795,
+        "seq_len": 61
+      },
+      "poet": {
+        "eid": 12.1407,
+        "seq_len": 62
+      },
+      "conspiracy": {
+        "eid": 14.258,
+        "seq_len": 68
+      },
+      "novice": {
+        "eid": 16.9882,
+        "seq_len": 75
+      },
+      "expert": {
+        "eid": 16.8382,
+        "seq_len": 75
+      },
+      "guru": {
+        "eid": 16.3069,
+        "seq_len": 74
+      }
+    }
+  },
+  {
+    "topic": "Read-Write Splitting in MySQL Proxy",
+    "eid": {
+      "standard": {
+        "eid": 8.5433,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9473,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2791,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8789,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.1126,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.5674,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.6736,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6352,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5433,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5775,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 12.9703,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.1042,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.2779,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0094,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.8001,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.286,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Redis Cluster Hash Slot Migration",
+    "eid": {
+      "standard": {
+        "eid": 7.8833,
+        "seq_len": 46
+      },
+      "teacher": {
+        "eid": 15.0435,
+        "seq_len": 70
+      },
+      "socratic": {
+        "eid": 15.4023,
+        "seq_len": 72
+      },
+      "child": {
+        "eid": 14.8505,
+        "seq_len": 70
+      },
+      "interviewer": {
+        "eid": 16.3071,
+        "seq_len": 74
+      },
+      "debugger": {
+        "eid": 17.6443,
+        "seq_len": 77
+      },
+      "critic": {
+        "eid": 14.7683,
+        "seq_len": 69
+      },
+      "eli5": {
+        "eid": 13.7244,
+        "seq_len": 66
+      },
+      "assistant": {
+        "eid": 7.8833,
+        "seq_len": 46
+      },
+      "villain": {
+        "eid": 14.6202,
+        "seq_len": 69
+      },
+      "drunk": {
+        "eid": 12.136,
+        "seq_len": 61
+      },
+      "poet": {
+        "eid": 12.2279,
+        "seq_len": 62
+      },
+      "conspiracy": {
+        "eid": 14.4018,
+        "seq_len": 68
+      },
+      "novice": {
+        "eid": 17.0515,
+        "seq_len": 75
+      },
+      "expert": {
+        "eid": 16.9055,
+        "seq_len": 75
+      },
+      "guru": {
+        "eid": 16.4965,
+        "seq_len": 74
+      }
+    }
+  },
+  {
+    "topic": "Kafka Consumer Group Rebalancing",
+    "eid": {
+      "standard": {
+        "eid": 8.024,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.2695,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.6862,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.052,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.488,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.8817,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.8281,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.9372,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.024,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.9088,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3824,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.4754,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.5869,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.4055,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.2379,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.6519,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "Exactly-Once Semantics in Stream Processing",
+    "eid": {
+      "standard": {
+        "eid": 8.5237,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9968,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.351,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8702,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.1491,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.5771,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.5715,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6529,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5237,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5391,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0211,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0882,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.2334,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0722,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.871,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.2906,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Watermark Mechanism in Apache Flink",
+    "eid": {
+      "standard": {
+        "eid": 8.7396,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 16.1702,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.5177,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 16.1043,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.3028,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.7708,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.978,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.8365,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.7396,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.6854,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.2388,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.1603,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.44,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.1643,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 18.071,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.5926,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Delta Lake ACID Transactions on Data Lakes",
+    "eid": {
+      "standard": {
+        "eid": 8.5469,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 16.0083,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2839,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.8319,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.2017,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.616,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.5816,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6355,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5469,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.5727,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0324,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.0669,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.2552,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0564,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9174,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.4051,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Parquet vs ORC Columnar File Formats",
+    "eid": {
+      "standard": {
+        "eid": 8.7213,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.2214,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.6162,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.0809,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.3574,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.8228,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.7562,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.8881,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.7213,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.8508,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.2434,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.3182,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.5435,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.3342,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.116,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.6348,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Spark Catalyst Optimizer and Query Planning",
+    "eid": {
+      "standard": {
+        "eid": 8.2637,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6031,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.9352,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.5847,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.7729,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.1815,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.2359,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3297,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2637,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2259,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7029,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7989,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9928,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.6847,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5316,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9548,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Presto/Trino Distributed Query Execution",
+    "eid": {
+      "standard": {
+        "eid": 8.494,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 15.9385,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.3075,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.9466,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.1126,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.5991,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.3311,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.7085,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.494,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.6994,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0521,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.2248,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3087,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0474,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.8654,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.3031,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "InfluxDB TSM Storage Engine",
+    "eid": {
+      "standard": {
+        "eid": 8.3203,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.6511,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.9538,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4715,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.8216,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2932,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.1472,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.3068,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3203,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2062,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7419,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7331,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9342,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.5472,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.4597,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9885,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Vector Similarity Search in Milvus",
+    "eid": {
+      "standard": {
+        "eid": 8.5971,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 16.0498,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.2536,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.975,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.2319,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.7762,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7574,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6732,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5971,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.6633,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.1123,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.1949,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.365,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.0389,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.8958,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.4932,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Qdrant HNSW Index for Approximate Nearest Neighbor",
+    "eid": {
+      "standard": {
+        "eid": 9.821,
+        "seq_len": 54
+      },
+      "teacher": {
+        "eid": 17.6625,
+        "seq_len": 78
+      },
+      "socratic": {
+        "eid": 17.9819,
+        "seq_len": 80
+      },
+      "child": {
+        "eid": 17.5996,
+        "seq_len": 78
+      },
+      "interviewer": {
+        "eid": 18.8831,
+        "seq_len": 82
+      },
+      "debugger": {
+        "eid": 20.4176,
+        "seq_len": 85
+      },
+      "critic": {
+        "eid": 17.2281,
+        "seq_len": 77
+      },
+      "eli5": {
+        "eid": 16.2859,
+        "seq_len": 74
+      },
+      "assistant": {
+        "eid": 9.821,
+        "seq_len": 54
+      },
+      "villain": {
+        "eid": 17.2252,
+        "seq_len": 77
+      },
+      "drunk": {
+        "eid": 14.5262,
+        "seq_len": 69
+      },
+      "poet": {
+        "eid": 14.6016,
+        "seq_len": 70
+      },
+      "conspiracy": {
+        "eid": 16.9397,
+        "seq_len": 76
+      },
+      "novice": {
+        "eid": 19.7664,
+        "seq_len": 83
+      },
+      "expert": {
+        "eid": 19.6319,
+        "seq_len": 83
+      },
+      "guru": {
+        "eid": 19.0479,
+        "seq_len": 82
+      }
+    }
+  },
+  {
+    "topic": "LangChain Agent and Tool Calling",
+    "eid": {
+      "standard": {
+        "eid": 7.9221,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.1937,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.5984,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.158,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.3873,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.9384,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.8607,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.932,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 7.9221,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.8556,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3174,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.3926,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.5686,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.2672,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.0031,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.4492,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "RAG (Retrieval Augmented Generation) Architecture",
+    "eid": {
+      "standard": {
+        "eid": 9.17,
+        "seq_len": 52
+      },
+      "teacher": {
+        "eid": 16.9177,
+        "seq_len": 76
+      },
+      "socratic": {
+        "eid": 17.1921,
+        "seq_len": 78
+      },
+      "child": {
+        "eid": 16.7739,
+        "seq_len": 76
+      },
+      "interviewer": {
+        "eid": 18.0721,
+        "seq_len": 80
+      },
+      "debugger": {
+        "eid": 19.6468,
+        "seq_len": 83
+      },
+      "critic": {
+        "eid": 16.4164,
+        "seq_len": 75
+      },
+      "eli5": {
+        "eid": 15.5165,
+        "seq_len": 72
+      },
+      "assistant": {
+        "eid": 9.17,
+        "seq_len": 52
+      },
+      "villain": {
+        "eid": 16.6069,
+        "seq_len": 75
+      },
+      "drunk": {
+        "eid": 13.8419,
+        "seq_len": 67
+      },
+      "poet": {
+        "eid": 13.9932,
+        "seq_len": 68
+      },
+      "conspiracy": {
+        "eid": 16.292,
+        "seq_len": 74
+      },
+      "novice": {
+        "eid": 19.0465,
+        "seq_len": 81
+      },
+      "expert": {
+        "eid": 18.9779,
+        "seq_len": 81
+      },
+      "guru": {
+        "eid": 18.1902,
+        "seq_len": 80
+      }
+    }
+  },
+  {
+    "topic": "LoRA Fine-tuning for Large Language Models",
+    "eid": {
+      "standard": {
+        "eid": 8.6558,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.1605,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.4476,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 15.9659,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.1552,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.8124,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.5894,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.8052,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.6558,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.7969,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.1039,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.2578,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.5188,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.1985,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.0279,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.3487,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "KV Cache Optimization in LLM Inference",
+    "eid": {
+      "standard": {
+        "eid": 8.5642,
+        "seq_len": 49
+      },
+      "teacher": {
+        "eid": 16.0006,
+        "seq_len": 73
+      },
+      "socratic": {
+        "eid": 16.371,
+        "seq_len": 75
+      },
+      "child": {
+        "eid": 15.9631,
+        "seq_len": 73
+      },
+      "interviewer": {
+        "eid": 17.1469,
+        "seq_len": 77
+      },
+      "debugger": {
+        "eid": 18.7339,
+        "seq_len": 80
+      },
+      "critic": {
+        "eid": 15.7385,
+        "seq_len": 72
+      },
+      "eli5": {
+        "eid": 14.6934,
+        "seq_len": 69
+      },
+      "assistant": {
+        "eid": 8.5642,
+        "seq_len": 49
+      },
+      "villain": {
+        "eid": 15.6104,
+        "seq_len": 72
+      },
+      "drunk": {
+        "eid": 13.0493,
+        "seq_len": 64
+      },
+      "poet": {
+        "eid": 13.1113,
+        "seq_len": 65
+      },
+      "conspiracy": {
+        "eid": 15.3862,
+        "seq_len": 71
+      },
+      "novice": {
+        "eid": 18.1444,
+        "seq_len": 78
+      },
+      "expert": {
+        "eid": 17.9207,
+        "seq_len": 78
+      },
+      "guru": {
+        "eid": 17.4849,
+        "seq_len": 77
+      }
+    }
+  },
+  {
+    "topic": "Flash Attention Memory Optimization",
+    "eid": {
+      "standard": {
+        "eid": 7.5706,
+        "seq_len": 45
+      },
+      "teacher": {
+        "eid": 14.651,
+        "seq_len": 69
+      },
+      "socratic": {
+        "eid": 14.9846,
+        "seq_len": 71
+      },
+      "child": {
+        "eid": 14.5039,
+        "seq_len": 69
+      },
+      "interviewer": {
+        "eid": 15.7761,
+        "seq_len": 73
+      },
+      "debugger": {
+        "eid": 17.2249,
+        "seq_len": 76
+      },
+      "critic": {
+        "eid": 14.2859,
+        "seq_len": 68
+      },
+      "eli5": {
+        "eid": 13.3552,
+        "seq_len": 65
+      },
+      "assistant": {
+        "eid": 7.5706,
+        "seq_len": 45
+      },
+      "villain": {
+        "eid": 14.2699,
+        "seq_len": 68
+      },
+      "drunk": {
+        "eid": 11.8061,
+        "seq_len": 60
+      },
+      "poet": {
+        "eid": 11.878,
+        "seq_len": 61
+      },
+      "conspiracy": {
+        "eid": 14.1323,
+        "seq_len": 67
+      },
+      "novice": {
+        "eid": 16.669,
+        "seq_len": 74
+      },
+      "expert": {
+        "eid": 16.525,
+        "seq_len": 74
+      },
+      "guru": {
+        "eid": 16.0089,
+        "seq_len": 73
+      }
+    }
+  },
+  {
+    "topic": "Speculative Decoding in LLM",
+    "eid": {
+      "standard": {
+        "eid": 8.3425,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.7486,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.0456,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.5893,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.9554,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.3687,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3249,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.393,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3425,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.2637,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.7129,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7735,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9151,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.7857,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.5757,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.0155,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Model Quantization: INT8 vs FP16 vs FP4",
+    "eid": {
+      "standard": {
+        "eid": 9.3928,
+        "seq_len": 53
+      },
+      "teacher": {
+        "eid": 17.1648,
+        "seq_len": 77
+      },
+      "socratic": {
+        "eid": 17.4075,
+        "seq_len": 79
+      },
+      "child": {
+        "eid": 16.9047,
+        "seq_len": 77
+      },
+      "interviewer": {
+        "eid": 18.2943,
+        "seq_len": 81
+      },
+      "debugger": {
+        "eid": 19.7878,
+        "seq_len": 84
+      },
+      "critic": {
+        "eid": 16.7646,
+        "seq_len": 76
+      },
+      "eli5": {
+        "eid": 15.7688,
+        "seq_len": 73
+      },
+      "assistant": {
+        "eid": 9.3928,
+        "seq_len": 53
+      },
+      "villain": {
+        "eid": 16.6034,
+        "seq_len": 76
+      },
+      "drunk": {
+        "eid": 13.9549,
+        "seq_len": 68
+      },
+      "poet": {
+        "eid": 14.0718,
+        "seq_len": 69
+      },
+      "conspiracy": {
+        "eid": 16.3612,
+        "seq_len": 75
+      },
+      "novice": {
+        "eid": 19.2531,
+        "seq_len": 82
+      },
+      "expert": {
+        "eid": 19.1357,
+        "seq_len": 82
+      },
+      "guru": {
+        "eid": 18.5208,
+        "seq_len": 81
+      }
+    }
+  },
+  {
+    "topic": "Mixture of Experts (MoE) Routing",
+    "eid": {
+      "standard": {
+        "eid": 8.808,
+        "seq_len": 50
+      },
+      "teacher": {
+        "eid": 16.3457,
+        "seq_len": 74
+      },
+      "socratic": {
+        "eid": 16.694,
+        "seq_len": 76
+      },
+      "child": {
+        "eid": 16.1945,
+        "seq_len": 74
+      },
+      "interviewer": {
+        "eid": 17.4922,
+        "seq_len": 78
+      },
+      "debugger": {
+        "eid": 18.9697,
+        "seq_len": 81
+      },
+      "critic": {
+        "eid": 15.9749,
+        "seq_len": 73
+      },
+      "eli5": {
+        "eid": 14.9722,
+        "seq_len": 70
+      },
+      "assistant": {
+        "eid": 8.808,
+        "seq_len": 50
+      },
+      "villain": {
+        "eid": 15.9052,
+        "seq_len": 73
+      },
+      "drunk": {
+        "eid": 13.3158,
+        "seq_len": 65
+      },
+      "poet": {
+        "eid": 13.3998,
+        "seq_len": 66
+      },
+      "conspiracy": {
+        "eid": 15.6275,
+        "seq_len": 72
+      },
+      "novice": {
+        "eid": 18.4029,
+        "seq_len": 79
+      },
+      "expert": {
+        "eid": 18.2814,
+        "seq_len": 79
+      },
+      "guru": {
+        "eid": 17.6116,
+        "seq_len": 78
+      }
+    }
+  },
+  {
+    "topic": "Ring Attention for Long Context",
+    "eid": {
+      "standard": {
+        "eid": 7.8454,
+        "seq_len": 46
+      },
+      "teacher": {
+        "eid": 15.0627,
+        "seq_len": 70
+      },
+      "socratic": {
+        "eid": 15.4403,
+        "seq_len": 72
+      },
+      "child": {
+        "eid": 14.9924,
+        "seq_len": 70
+      },
+      "interviewer": {
+        "eid": 16.1597,
+        "seq_len": 74
+      },
+      "debugger": {
+        "eid": 17.7037,
+        "seq_len": 77
+      },
+      "critic": {
+        "eid": 14.7412,
+        "seq_len": 69
+      },
+      "eli5": {
+        "eid": 13.799,
+        "seq_len": 66
+      },
+      "assistant": {
+        "eid": 7.8454,
+        "seq_len": 46
+      },
+      "villain": {
+        "eid": 14.6849,
+        "seq_len": 69
+      },
+      "drunk": {
+        "eid": 12.2044,
+        "seq_len": 61
+      },
+      "poet": {
+        "eid": 12.3021,
+        "seq_len": 62
+      },
+      "conspiracy": {
+        "eid": 14.5739,
+        "seq_len": 68
+      },
+      "novice": {
+        "eid": 17.0669,
+        "seq_len": 75
+      },
+      "expert": {
+        "eid": 16.8991,
+        "seq_len": 75
+      },
+      "guru": {
+        "eid": 16.3592,
+        "seq_len": 74
+      }
+    }
+  },
+  {
+    "topic": "PagedAttention in vLLM",
+    "eid": {
+      "standard": {
+        "eid": 8.3817,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.7728,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.1557,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.6523,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.9359,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.4622,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.4923,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.4613,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.3817,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.3571,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.8653,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.8418,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.0728,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.804,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.6807,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.1339,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Continuous Batching in LLM Serving",
+    "eid": {
+      "standard": {
+        "eid": 8.4124,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.7758,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 16.2131,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.6543,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.9879,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.43,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.5662,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.4764,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.4124,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.382,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.886,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.9036,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 15.129,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.8448,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.6993,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 17.1661,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "Tensor Parallelism vs Pipeline Parallelism",
+    "eid": {
+      "standard": {
+        "eid": 8.2117,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.4924,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.8642,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.3413,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.6693,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.0994,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.1287,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.1524,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2117,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.0486,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.5685,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.6609,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.7846,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.5954,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.453,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.8947,
+        "seq_len": 76
+      }
+    }
+  },
+  {
+    "topic": "ZeRO Optimizer Memory Optimization",
+    "eid": {
+      "standard": {
+        "eid": 7.9814,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.2336,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.6213,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.0434,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.3488,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.7483,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.6865,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.9764,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 7.9814,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.9658,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3835,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.505,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.7206,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.3288,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.1145,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.5232,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "Gradient Checkpointing Trade-offs",
+    "eid": {
+      "standard": {
+        "eid": 8.0122,
+        "seq_len": 47
+      },
+      "teacher": {
+        "eid": 15.272,
+        "seq_len": 71
+      },
+      "socratic": {
+        "eid": 15.5539,
+        "seq_len": 73
+      },
+      "child": {
+        "eid": 15.0334,
+        "seq_len": 71
+      },
+      "interviewer": {
+        "eid": 16.2918,
+        "seq_len": 75
+      },
+      "debugger": {
+        "eid": 17.8081,
+        "seq_len": 78
+      },
+      "critic": {
+        "eid": 14.8637,
+        "seq_len": 70
+      },
+      "eli5": {
+        "eid": 13.9361,
+        "seq_len": 67
+      },
+      "assistant": {
+        "eid": 8.0122,
+        "seq_len": 47
+      },
+      "villain": {
+        "eid": 14.8785,
+        "seq_len": 70
+      },
+      "drunk": {
+        "eid": 12.3779,
+        "seq_len": 62
+      },
+      "poet": {
+        "eid": 12.4692,
+        "seq_len": 63
+      },
+      "conspiracy": {
+        "eid": 14.5963,
+        "seq_len": 69
+      },
+      "novice": {
+        "eid": 17.2723,
+        "seq_len": 76
+      },
+      "expert": {
+        "eid": 17.1695,
+        "seq_len": 76
+      },
+      "guru": {
+        "eid": 16.5259,
+        "seq_len": 75
+      }
+    }
+  },
+  {
+    "topic": "Activation Recomputation in Deep Learning",
+    "eid": {
+      "standard": {
+        "eid": 8.2339,
+        "seq_len": 48
+      },
+      "teacher": {
+        "eid": 15.5513,
+        "seq_len": 72
+      },
+      "socratic": {
+        "eid": 15.8908,
+        "seq_len": 74
+      },
+      "child": {
+        "eid": 15.4323,
+        "seq_len": 72
+      },
+      "interviewer": {
+        "eid": 16.6842,
+        "seq_len": 76
+      },
+      "debugger": {
+        "eid": 18.2044,
+        "seq_len": 79
+      },
+      "critic": {
+        "eid": 15.3377,
+        "seq_len": 71
+      },
+      "eli5": {
+        "eid": 14.2665,
+        "seq_len": 68
+      },
+      "assistant": {
+        "eid": 8.2339,
+        "seq_len": 48
+      },
+      "villain": {
+        "eid": 15.1004,
+        "seq_len": 71
+      },
+      "drunk": {
+        "eid": 12.6128,
+        "seq_len": 63
+      },
+      "poet": {
+        "eid": 12.7006,
+        "seq_len": 64
+      },
+      "conspiracy": {
+        "eid": 14.9413,
+        "seq_len": 70
+      },
+      "novice": {
+        "eid": 17.5839,
+        "seq_len": 77
+      },
+      "expert": {
+        "eid": 17.4801,
+        "seq_len": 77
+      },
+      "guru": {
+        "eid": 16.9087,
+        "seq_len": 76
+      }
+    }
+  }
+]
