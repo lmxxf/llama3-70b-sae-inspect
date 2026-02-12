@@ -1,11 +1,11 @@
-"""统计 13 种人格条件的激活数据（100 个 topic 全量）"""
+"""统计 16 种人格条件的激活数据（100 个 topic 全量）"""
 import torch
 import statistics
 
 data = torch.load("features_persona_layer50.pt", map_location="cpu")
 prompt_types = ["standard", "teacher", "socratic", "child", "interviewer",
                 "debugger", "critic", "eli5", "assistant", "villain",
-                "drunk", "poet", "conspiracy"]
+                "drunk", "poet", "conspiracy", "novice", "expert", "guru"]
 
 stats = {p: {"active_counts": [], "max_vals": []} for p in prompt_types}
 

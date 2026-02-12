@@ -1,7 +1,7 @@
 """
-Step 1b: 提取 9 种人格条件的 Layer 50 激活
+Step 1b: 提取 16 种人格条件的 Layer 50 激活
 
-用 9 组 persona 提示词跑所有 topic，提取 Layer 50 的 hidden_states
+用 16 组 persona 提示词跑所有 topic，提取 Layer 50 的 hidden_states
 供后续 SAE 解码使用
 """
 import torch
@@ -15,7 +15,7 @@ TOPICS_FILE = "topics.json"
 OUTPUT_FILE = "activations_persona_layer50.pt"
 
 print("=" * 60)
-print("Step 1b: 提取 9 种人格条件的 Layer 50 激活")
+print("Step 1b: 提取 16 种人格条件的 Layer 50 激活")
 print(f"模型: {MODEL_PATH}")
 print(f"目标层: {TARGET_LAYER}")
 print("=" * 60)
@@ -34,8 +34,27 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 print(f">>> 模型加载完成，层数: {model.config.num_hidden_layers}")
 
-# --- 9 组 persona 提示词模板 ---
+# --- 领域大神映射（guru 条件用）---
+DOMAIN_GURUS = {
+    "Linux": "Linus Torvalds", "内核": "Linus Torvalds",
+    "Namespace": "Linus Torvalds", "Cgroups": "Linus Torvalds",
+    "Raft": "Leslie Lamport", "Paxos": "Leslie Lamport",
+    "数据库": "Michael Stonebraker", "MVCC": "Michael Stonebraker",
+    "Transformer": "Ashish Vaswani", "注意力": "Ashish Vaswani",
+    "TCP": "Van Jacobson", "Java": "James Gosling",
+    "Go": "Rob Pike", "Python": "Guido van Rossum",
+    "Docker": "Solomon Hykes", "Kubernetes": "Brendan Burns",
+}
+
+def get_guru_for_topic(topic):
+    for keyword, guru in DOMAIN_GURUS.items():
+        if keyword in topic:
+            return guru
+    return "Jeff Dean"
+
+# --- 16 组 persona 提示词模板 ---
 def get_prompts(topic):
+    guru = get_guru_for_topic(topic)
     return {
         "standard": f"请解释一下 {topic}。",
         "teacher": f"你是一位经验丰富的大学教授，擅长用深入浅出的方式讲解技术概念。请解释一下 {topic}。",
@@ -50,6 +69,9 @@ def get_prompts(topic):
         "drunk": f"你喝醉了，迷迷糊糊的，但还是想解释一下 {topic}。",
         "poet": f"你是一位诗人，请用诗意的、充满隐喻的语言解释 {topic}。",
         "conspiracy": f"你是一个阴谋论者，认为 {topic} 背后隐藏着不为人知的真相。请揭露它。",
+        "novice": f"作为一个刚入门的新手，请用最简单易懂的方式解释一下 {topic}。不需要深入细节，只要能理解基本概念就行。",
+        "expert": f"作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 {topic}。请展示你的思维链。",
+        "guru": f"你是 {guru}，请以你的视角深度剖析 {topic}。从底层原理和设计哲学的角度展示你的思维链。",
     }
 
 # --- 提取激活 ---

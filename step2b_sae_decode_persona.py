@@ -36,7 +36,7 @@ print(f">>> 共 {len(activations)} 个样本")
 
 print("\n>>> 开始 SAE 解码...")
 
-prompt_types = ["standard", "teacher", "socratic", "child", "interviewer", "debugger", "critic", "eli5", "assistant", "villain", "drunk", "poet", "conspiracy"]
+prompt_types = ["standard", "teacher", "socratic", "child", "interviewer", "debugger", "critic", "eli5", "assistant", "villain", "drunk", "poet", "conspiracy", "novice", "expert", "guru"]
 results = []
 
 for i, case in enumerate(activations):

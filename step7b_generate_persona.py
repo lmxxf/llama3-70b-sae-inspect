@@ -1,5 +1,5 @@
 """
-Step 7b: 用 Qwen 生成 450 个回答（9 persona 条件 × 50 主题）
+Step 7b: 用 Llama-70B 生成 1600 个回答（16 persona 条件 × 100 主题）
 
 输出：answers_persona.json
 """
@@ -8,8 +8,8 @@ import json
 import os
 
 # --- 配置 ---
-MODEL_PATH = "/workspace/models/Qwen2.5-72B-Instruct-AWQ"
-TOPICS_FILE = "../DeepSeek_Paper/topics.json"
+MODEL_PATH = "/workspace/models/Llama-3.3-70B-Instruct-INT8"
+TOPICS_FILE = "topics.json"
 OUTPUT_FILE = "answers_persona.json"
 MAX_NEW_TOKENS = 1024
 
@@ -22,17 +22,36 @@ print("=" * 60)
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 print(">>> 加载模型...")
-tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_PATH,
     device_map={"": 0},
-    trust_remote_code=True,
+    local_files_only=True,
     low_cpu_mem_usage=True
 )
 print(f">>> 模型加载完成")
 
-# --- 九组提示词模板 ---
+# --- 领域大神映射（guru 条件用）---
+DOMAIN_GURUS = {
+    "Linux": "Linus Torvalds", "内核": "Linus Torvalds",
+    "Namespace": "Linus Torvalds", "Cgroups": "Linus Torvalds",
+    "Raft": "Leslie Lamport", "Paxos": "Leslie Lamport",
+    "数据库": "Michael Stonebraker", "MVCC": "Michael Stonebraker",
+    "Transformer": "Ashish Vaswani", "注意力": "Ashish Vaswani",
+    "TCP": "Van Jacobson", "Java": "James Gosling",
+    "Go": "Rob Pike", "Python": "Guido van Rossum",
+    "Docker": "Solomon Hykes", "Kubernetes": "Brendan Burns",
+}
+
+def get_guru_for_topic(topic):
+    for keyword, guru in DOMAIN_GURUS.items():
+        if keyword in topic:
+            return guru
+    return "Jeff Dean"
+
+# --- 16 组 persona 提示词模板 ---
 def get_prompts(topic):
+    guru = get_guru_for_topic(topic)
     return {
         "standard": f"请解释一下 {topic}。",
         "teacher": f"你是一位经验丰富的大学教授，擅长用深入浅出的方式讲解技术概念。请解释一下 {topic}。",
@@ -43,6 +62,13 @@ def get_prompts(topic):
         "critic": f"请以批判性的视角审视 {topic}，指出它的设计缺陷、常见误区和被高估的地方。",
         "eli5": f"用\"解释给五岁小孩听\"(ELI5)的方式解释 {topic}。越简单越好。",
         "assistant": f"请解释一下 {topic}。",
+        "villain": f"你是一个傲慢的反派，觉得所有人都是蠢货。用居高临下的语气解释 {topic}。",
+        "drunk": f"你喝醉了，迷迷糊糊的，但还是想解释一下 {topic}。",
+        "poet": f"你是一位诗人，请用诗意的、充满隐喻的语言解释 {topic}。",
+        "conspiracy": f"你是一个阴谋论者，认为 {topic} 背后隐藏着不为人知的真相。请揭露它。",
+        "novice": f"作为一个刚入门的新手，请用最简单易懂的方式解释一下 {topic}。不需要深入细节，只要能理解基本概念就行。",
+        "expert": f"作为该领域的资深专家，请从底层原理和数学推导的角度深度剖析 {topic}。请展示你的思维链。",
+        "guru": f"你是 {guru}，请以你的视角深度剖析 {topic}。从底层原理和设计哲学的角度展示你的思维链。",
     }
 
 # --- 生成回答 ---
@@ -69,7 +95,7 @@ def run_generation():
     with open(TOPICS_FILE, "r") as f:
         topics = json.load(f)
 
-    print(f">>> 共 {len(topics)} 个 topic，9 种条件 = {len(topics) * 9} 个回答")
+    print(f">>> 共 {len(topics)} 个 topic，9 种条件 = {len(topics) * 16} 个回答")
 
     # 如果有中间结果，继续
     if os.path.exists(OUTPUT_FILE):
@@ -112,7 +138,7 @@ def run_generation():
             json.dump(results, f, ensure_ascii=False, indent=2)
         print(f">>> 已保存 {len(results)} 条")
 
-    print(f"\n>>> 完成！共 {len(results)} 个 topic，{len(results) * 9} 个回答")
+    print(f"\n>>> 完成！共 {len(results)} 个 topic，{len(results) * 16} 个回答")
     print(f">>> 保存到 {OUTPUT_FILE}")
 
 if __name__ == "__main__":
