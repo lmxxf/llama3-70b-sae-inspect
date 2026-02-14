@@ -4,11 +4,11 @@
 
 **Resource type:** Preprint
 
-**Title:** Sparse Feature Analysis of Deep Layer Expansion: A Mechanistic Interpretation via SAE
+**Title:** Sparse Feature Analysis of Deep Layer Expansion: Cognitive Geometry and Steering Anatomy of Persona Prompts
 
 **Publication date:** 2026-01-31
 
-**Version:** v3 (2026-02-02)
+**Version:** v4 (2026-02-15)
 
 **Authors/Creators:**
 1. Jin, Yanyan (lmxxf@hotmail.com, ORCID: 0009-0008-0169-0409)
@@ -16,23 +16,26 @@
 
 **Description:**
 ```
-Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60-100% increase in Effective Intrinsic Dimension (EID) at deep layers. However, EID is a global metric that does not reveal which semantic features are activated. In this paper, we apply Sparse Autoencoder (SAE) analysis to decompose the activation differences between prompt styles. Using Goodfire's Llama-3.3-70B SAE (Layer 50, 65,536 features), we find that: (1) "Explain to a novice" activates 17% more features than "explain to an expert" (132.4 vs 113.1 on average); (2) 369 features are exclusively activated by novice prompts vs 208 for expert prompts; (3) 10 features show perfect separation between Novice vs Expert conditions; (4) Through AutoInterp analysis (6 conditions × 50 topics = 300 samples), we discover these features exhibit semantic subdivision—encoding distinct dimensions such as "expert identity," "serious attitude," "depth requirement," and "technical analysis"; (5) UMAP visualization confirms that 6 prompt conditions form distinct clusters in both raw activation space and SAE feature space, with SAE acting as a semantic denoiser that merges noise-only conditions (standard/padding/spaces) while preserving semantic distinctions (novice/expert/guru). These findings suggest prompt effects are compositional, with different elements triggering different feature subsets.
+Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"—a 60–100% increase in Effective Intrinsic Dimension (EID) at deep layers. This paper introduces two orthogonal measures—SAF (Sparse Active Features) and EID—to systematically analyze Layer 50 activations across 16 persona prompt conditions and 100 technical topics using Goodfire's Llama-3.3-70B SAE (65,536 features).
+
+Key findings: (1) SAF and EID are orthogonal cognitive measures—expert achieves the highest dimensionality (EID rank 3/16) with the fewest features (SAF rank 13/16), while socratic activates the most features (SAF rank 1/16) but achieves only moderate dimensionality (EID rank 6/16); (2) Any persona prompt yields nEID 1.52–2.18, indicating role assignment alone is sufficient for >50% dimensional expansion; (3) Persona prompts are geometrically approximable as one-dimensional steering vectors (66–82% variance explained by a single direction); (4) Different personas' steering directions form a multi-dimensional "cognitive dimension space"—expert-guru-debugger share a professional depth direction (cosine 0.54–0.65), socratic is nearly orthogonal to all others, and novice-expert cosine is only 0.46 (novice is not an "inverse expert" but an independent dimension).
 ```
 
 **Keywords:**
 - Sparse Autoencoder
 - SAE
 - Interpretability
-- Prompt Engineering
+- Persona Prompts
+- Steering Vector
+- Cognitive Geometry
 - Feature Activation
 - Llama
 - Deep Layer Expansion
 - LLM
-- Semantic Subdivision
-- Neural Signature
-- AutoInterp
-- UMAP
-- Semantic Denoising
+- Effective Intrinsic Dimension
+- EID
+- Residual Stream
+- Multi-dimensional Manifold
 
 ## Related Works
 
@@ -46,12 +49,14 @@ Zhao (2026) demonstrated that expert-level prompts induce "Deep Layer Expansion"
 - **v1 (2026-01-31):** Initial release - activation count and exclusive feature analysis
 - **v2 (2026-02-01):** Added AutoInterp analysis (Section 3.5), discovered semantic subdivision structure
 - **v3 (2026-02-02):** Added UMAP visualization (Section 4.5), showing spatial separation and SAE denoising effect
+- **v4 (2026-02-15):** Major upgrade — added Persona experiment (16 conditions × 100 topics), EID analysis, Steering experiment, revealing multi-dimensional manifold structure of the cognitive dimension space
 
 ## Zenodo Record
 
 - **v1:** https://zenodo.org/records/18441075
 - **v2:** https://zenodo.org/records/18449508
 - **v3:** https://zenodo.org/records/18457875
+- **v4:** https://zenodo.org/records/18643112
 
 ## Other Fields
 
